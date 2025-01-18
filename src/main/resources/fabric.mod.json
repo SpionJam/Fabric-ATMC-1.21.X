@@ -3,15 +3,18 @@
 	"id": "atmcmod",
 	"version": "${version}",
 	"name": "ATMCMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Expanding End dimension and co.",
 	"authors": [
-		"Me!"
+		"SpionJam",
+		"Apocalypto_Torte",
+		"Jokestar",
+		"Vykos"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://spionjam.github.io/ATMC-Website/",
+		"sources": "https://github.com/SpionJam/Fabric-ATMC-1.21.X"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/atmcmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +23,9 @@
 		],
 		"fabric-datagen": [
 			"net.atmcteam.atmcmod.ATMCModDataGenerator"
+		],
+		"client": [
+			"net.atmcteam.atmcmod.ATMCModClient"
 		]
 	},
 	"mixins": [
