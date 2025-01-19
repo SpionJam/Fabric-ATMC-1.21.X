@@ -1,5 +1,6 @@
 package net.atmcteam.atmcmod;
 
+import net.atmcteam.atmcmod.block.ModBlocks;
 import net.atmcteam.atmcmod.item.ModItemGroups;
 import net.atmcteam.atmcmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,5 +17,6 @@ public class ATMCMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
