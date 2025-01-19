@@ -1,5 +1,9 @@
 {
   "item.atmcmod.amethyst_sword": "Amethyst Sword",
+  "item.atmcmod.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.atmcmod.amethyst_axe": "Amethyst Axe",
+  "item.atmcmod.amethyst_shovel": "Amethyst Shovel",
+  "item.atmcmod.amethyst_hoe": "Amethyst Hoe",
 
   "itemgroup.atmcmod.atmc_mod_items": "ATMC Mod Items"
 }

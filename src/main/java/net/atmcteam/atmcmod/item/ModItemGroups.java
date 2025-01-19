@@ -16,6 +16,10 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.atmcmod.atmc_mod_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.AMETHYST_SWORD);
+                        entries.add(ModItems.AMETHYST_PICKAXE);
+                        entries.add(ModItems.AMETHYST_AXE);
+                        entries.add(ModItems.AMETHYST_SHOVEL);
+                        entries.add(ModItems.AMETHYST_HOE);
                     }).build());
 
     public static void registerItemGroups() {
