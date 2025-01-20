@@ -1,14 +1,24 @@
 package net.atmcteam.atmcmod.block;
 
 import net.atmcteam.atmcmod.ATMCMod;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.AmethystBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+
+    public static final Block PURE_AMETHYST_ORE = registerBlock("pure_amethyst_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     //Helper-Method
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

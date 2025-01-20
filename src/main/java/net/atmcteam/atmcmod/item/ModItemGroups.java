@@ -1,6 +1,7 @@
 package net.atmcteam.atmcmod.item;
 
 import net.atmcteam.atmcmod.ATMCMod;
+import net.atmcteam.atmcmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -20,6 +21,14 @@ public class ModItemGroups {
                         entries.add(ModItems.AMETHYST_AXE);
                         entries.add(ModItems.AMETHYST_SHOVEL);
                         entries.add(ModItems.AMETHYST_HOE);
+                    }).build());
+
+    public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(ATMCMod.MOD_ID, "atmc_mod_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PURE_AMETHYST_ORE))
+                    .displayName(Text.translatable("itemgroup.atmcmod.atmc_mod_blocks"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.PURE_AMETHYST_ORE);
                     }).build());
 
     public static void registerItemGroups() {
