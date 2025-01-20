@@ -28,6 +28,8 @@ public class ModItems {
             new HoeItem(ModToolMaterials.AMETHYST, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.AMETHYST, -1, -1.0f))));
 
+    public static final Item PURE_AMETHYST_SHARD = registerItem("pure_amethyst_shard", new Item(new Item.Settings()));
+
     //Helper-Method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ATMCMod.MOD_ID, name), item);

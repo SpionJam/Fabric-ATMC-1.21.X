@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup ATMC_MOD_ITEMS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(ATMCMod.MOD_ID, "atmc_mod_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.AMETHYST_SWORD))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PURE_AMETHYST_SHARD))
                     .displayName(Text.translatable("itemgroup.atmcmod.atmc_mod_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.AMETHYST_SWORD);
@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.AMETHYST_AXE);
                         entries.add(ModItems.AMETHYST_SHOVEL);
                         entries.add(ModItems.AMETHYST_HOE);
+                        entries.add(ModItems.PURE_AMETHYST_SHARD);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
