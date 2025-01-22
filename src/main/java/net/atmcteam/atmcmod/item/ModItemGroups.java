@@ -30,6 +30,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.atmcmod.atmc_mod_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PURE_AMETHYST_ORE);
+                        entries.add(ModBlocks.SULFUR_ORE);
                     }).build());
 
     public static void registerItemGroups() {
