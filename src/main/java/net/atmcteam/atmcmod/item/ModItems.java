@@ -79,6 +79,10 @@ public class ModItems {
 
     public static final Item YAMATO = registerItem("yamato",
             new SwordItem(ModToolMaterials.YAMATO, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.YAMATO, 1, -2.0f))));
+
+    public static final Item YAMATO_MAIN = registerItem("yamato_main",
+            new SwordItem(ModToolMaterials.YAMATO, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.YAMATO, 4, -2.0f))));
 
     //Helper-Method
@@ -90,5 +94,6 @@ public class ModItems {
         ATMCMod.LOGGER.info("Registering Mod Items for " + ATMCMod.MOD_ID);
 
         };
+
     }
 

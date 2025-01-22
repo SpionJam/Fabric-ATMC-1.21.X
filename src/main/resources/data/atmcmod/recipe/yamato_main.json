@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "atmcmod:yamato"
+    }
+  },
+  "result": {
+    "id": "atmcmod:yamato_main",
+    "count": 1
+  }
+}

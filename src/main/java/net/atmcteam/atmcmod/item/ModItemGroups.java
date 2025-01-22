@@ -34,6 +34,7 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_HOE);
                         entries.add(ModItems.WITHERITE_SWORD);
                         entries.add(ModItems.YAMATO);
+                        entries.add(ModItems.YAMATO_MAIN);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
