@@ -73,6 +73,14 @@ public class ModItems {
             new HoeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.EMERALD, -1, -1.0f))));
 
+    public static final Item WITHERITE_SWORD = registerItem("witherite_sword",
+            new SwordItem(ModToolMaterials.WITHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 3, -2.4f))));
+
+    public static final Item YAMATO = registerItem("yamato",
+            new SwordItem(ModToolMaterials.YAMATO, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.YAMATO, 4, -2.0f))));
+
     //Helper-Method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ATMCMod.MOD_ID, name), item);
