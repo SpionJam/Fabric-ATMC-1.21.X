@@ -14,7 +14,11 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     AMETHYST(ModTags.Blocks.INCORRECT_FOR_AMETHYST_TOOL,
-            1250, 7.0F, 2.5F, 18, () -> Ingredient.ofItems(Items.AMETHYST_SHARD));
+            1250, 7.0F, 2.5F, 19, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
+    PURE_AMETHYST(ModTags.Blocks.INCORRECT_FOR_PURE_AMETHYST_TOOL,
+            1750, 8.5F, 4.5F, 21, () -> Ingredient.ofItems(ModItems.PURE_AMETHYST_SHARD)),
+    EMERALD(ModTags.Blocks.INCORRECT_FOR_EMERALD_TOOL,
+            750, 6.5F, 2.5F, 16, () -> Ingredient.ofItems(Items.EMERALD));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

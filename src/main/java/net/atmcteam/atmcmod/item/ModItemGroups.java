@@ -22,6 +22,16 @@ public class ModItemGroups {
                         entries.add(ModItems.AMETHYST_SHOVEL);
                         entries.add(ModItems.AMETHYST_HOE);
                         entries.add(ModItems.PURE_AMETHYST_SHARD);
+                        entries.add(ModItems.PURE_AMETHYST_SWORD);
+                        entries.add(ModItems.PURE_AMETHYST_PICKAXE);
+                        entries.add(ModItems.PURE_AMETHYST_AXE);
+                        entries.add(ModItems.PURE_AMETHYST_SHOVEL);
+                        entries.add(ModItems.PURE_AMETHYST_HOE);
+                        entries.add(ModItems.EMERALD_SWORD);
+                        entries.add(ModItems.EMERALD_PICKAXE);
+                        entries.add(ModItems.EMERALD_AXE);
+                        entries.add(ModItems.EMERALD_SHOVEL);
+                        entries.add(ModItems.EMERALD_HOE);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
