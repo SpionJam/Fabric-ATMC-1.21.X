@@ -81,8 +81,6 @@ public class ModItems {
     public static void registerModItems() {
         ATMCMod.LOGGER.info("Registering Mod Items for " + ATMCMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(AMETHYST_SWORD);
-        });
+        };
     }
-}
+
