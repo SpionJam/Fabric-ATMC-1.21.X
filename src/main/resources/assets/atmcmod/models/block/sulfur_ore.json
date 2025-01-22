@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "atmcmod:block/sulfur_ore"
-  }
-}
