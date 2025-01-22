@@ -41,6 +41,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PURE_AMETHYST_ORE);
                         entries.add(ModBlocks.SULFUR_ORE);
+                        entries.add(ModBlocks.PITCH_COAL_ORE);
                     }).build());
 
     public static void registerItemGroups() {
