@@ -1,11 +1,17 @@
 package net.atmcteam.atmcmod.item;
 
 import net.atmcteam.atmcmod.ATMCMod;
+import net.atmcteam.atmcmod.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.*;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+
+import java.util.List;
 
 public class ModItems {
     //Amethyst
@@ -155,7 +161,7 @@ public class ModItems {
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 2, -2.0f))));
 
     public static final Item PURE_AMETHYST_NETHERITE_HELMET = registerItem("pure_amethyst_netherite_helmet",
-            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
 
     public static final Item PURE_AMETHYST_NETHERITE_CHESTPLATE = registerItem("pure_amethyst_netherite_chestplate",
@@ -174,7 +180,20 @@ public class ModItems {
 
     public static final Item SULFUR_DUST = registerItem("sulfur_dust", new Item(new Item.Settings()));
     public static final Item PITCH_COAL = registerItem("pitch_coal", new Item(new Item.Settings()));
-    public static final Item PURE_AMETHYST_APPLE = registerItem("pure_amethyst_apple", new Item(new Item.Settings().food(ModFoodComponents.PURE_AMETHYST_APPLE)));
+    public static final Item PURE_AMETHYST_APPLE = registerItem("pure_amethyst_apple", new Item(new Item.Settings().food(ModFoodComponents.PURE_AMETHYST_APPLE)) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            if (Screen.hasShiftDown()) {
+                tooltip.add(Text.translatable("tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l1"));
+                tooltip.add(Text.translatable("tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l2"));
+                tooltip.add(Text.translatable("tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l3"));
+                tooltip.add(Text.translatable("tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l4"));
+            } else {
+                tooltip.add(Text.translatable("tooltip.atmcmod.pure_amethyst_apple.tooltip"));
+            }
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
 
     public static final Item IRON_SABER = registerItem("iron_saber",
             new SwordItem(ToolMaterials.IRON, new Item.Settings()
@@ -187,6 +206,7 @@ public class ModItems {
     public static final Item NETHERITE_SABER = registerItem("netherite_saber",
             new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 2, -2.0f))));
+
 
     //Helper-Method
     private static Item registerItem(String name, Item item) {
