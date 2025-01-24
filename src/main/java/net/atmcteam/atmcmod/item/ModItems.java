@@ -140,6 +140,9 @@ public class ModItems {
 
     public static final Item PURE_AMETHYST_NETHERITE_INGOT = registerItem("pure_amethyst_netherite_ingot", new Item(new Item.Settings()));
 
+    public static final Item SULFUR_DUST = registerItem("sulfur_dust", new Item(new Item.Settings()));
+    public static final Item PITCH_COAL = registerItem("pitch_coal", new Item(new Item.Settings()));
+
     //Helper-Method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ATMCMod.MOD_ID, name), item);

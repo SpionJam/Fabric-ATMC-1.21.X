@@ -52,6 +52,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SULFUR_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PITCH_COAL, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_NETHERITE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_NETHERITE_CHESTPLATE));

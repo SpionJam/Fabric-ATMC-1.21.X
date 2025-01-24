@@ -45,6 +45,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_LEGGINGS);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_BOOTS);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_INGOT);
+                        entries.add(ModItems.SULFUR_DUST);
+                        entries.add(ModItems.PITCH_COAL);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
