@@ -26,6 +26,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
                 .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMETHYST_PICKAXE)
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('A', Items.AMETHYST_SHARD)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMETHYST_AXE)
+                .pattern(" AA")
+                .pattern(" SA")
+                .pattern(" S ")
+                .input('A', Items.AMETHYST_SHARD)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMETHYST_SHOVEL)
+                .pattern(" A ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('A', Items.AMETHYST_SHARD)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMETHYST_HOE)
+                .pattern(" AA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('A', Items.AMETHYST_SHARD)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .offerTo(recipeExporter);
     }
 
 

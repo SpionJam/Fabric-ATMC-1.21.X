@@ -46,6 +46,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PURE_AMETHYST_NETHERITE_HOE);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.EMERALD_HELMET)
+                .add(ModItems.EMERALD_CHESTPLATE)
+                .add(ModItems.EMERALD_LEGGINGS)
+                .add(ModItems.EMERALD_BOOTS)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_HELMET)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_CHESTPLATE)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_LEGGINGS)

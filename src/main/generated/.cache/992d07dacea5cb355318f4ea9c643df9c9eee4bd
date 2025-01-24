@@ -1,3 +1,11 @@
-// 1.21	2025-01-24T11:41:15.5073781	ATMCMod/Recipes
-7e74601f775b0da804dce782c164306d558911ea data\atmcmod\recipe\amethyst_sword.json
+// 1.21	2025-01-24T15:06:01.1021626	ATMCMod/Recipes
 60d437941895b1a1c393e6dbb7239acd8e0b6785 data\atmcmod\advancement\recipes\combat\amethyst_sword.json
+081bf8252d78c4e7a3d745a1f270242efa9c9a1f data\atmcmod\recipe\amethyst_pickaxe.json
+a57c2fd901cd04c7d22e88878b7140a80c8be06a data\atmcmod\advancement\recipes\combat\amethyst_axe.json
+08002bc6a311a60c66d9189d909f62efaebf01ce data\atmcmod\advancement\recipes\combat\amethyst_hoe.json
+963843abef2260f1d6376baec6113352aa5c85c3 data\atmcmod\advancement\recipes\combat\amethyst_pickaxe.json
+a8dc5075c0ba98a88f7df89c0313ac305a3c8820 data\atmcmod\recipe\amethyst_axe.json
+a3901be97f23e2f4aa59282b4a89f822edf514c4 data\atmcmod\recipe\amethyst_hoe.json
+d96fb090a519a9f7d2ae15659361e1e0292d2ab4 data\atmcmod\advancement\recipes\combat\amethyst_shovel.json
+7e74601f775b0da804dce782c164306d558911ea data\atmcmod\recipe\amethyst_sword.json
+e58343dc808085ba161b432c242d811b6dfefc69 data\atmcmod\recipe\amethyst_shovel.json
