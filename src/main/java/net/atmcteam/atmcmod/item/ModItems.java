@@ -124,19 +124,19 @@ public class ModItems {
 
     public static final Item PURE_AMETHYST_NETHERITE_HELMET = registerItem("pure_amethyst_netherite_helmet",
             new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
 
     public static final Item PURE_AMETHYST_NETHERITE_CHESTPLATE = registerItem("pure_amethyst_netherite_chestplate",
             new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
 
     public static final Item PURE_AMETHYST_NETHERITE_LEGGINGS = registerItem("pure_amethyst_netherite_leggings",
             new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
 
     public static final Item PURE_AMETHYST_NETHERITE_BOOTS = registerItem("pure_amethyst_netherite_boots",
             new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
     public static final Item PURE_AMETHYST_NETHERITE_INGOT = registerItem("pure_amethyst_netherite_ingot", new Item(new Item.Settings()));
 
