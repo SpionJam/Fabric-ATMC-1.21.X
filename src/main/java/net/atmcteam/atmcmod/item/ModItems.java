@@ -29,6 +29,10 @@ public class ModItems {
             new HoeItem(ModToolMaterials.AMETHYST, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.AMETHYST, -1, -1.0f))));
 
+    public static final Item AMETHYST_SABER = registerItem("amethyst_saber",
+            new SwordItem(ModToolMaterials.AMETHYST, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 2, -2.0f))));
+
     public static final Item AMETHYST_HELMET = registerItem("amethyst_helmet",
             new ArmorItem(ModArmorMaterials.AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
@@ -68,6 +72,10 @@ public class ModItems {
             new HoeItem(ModToolMaterials.PURE_AMETHYST, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST, -1, -1.0f))));
 
+    public static final Item PURE_AMETHYST_SABER = registerItem("pure_amethyst_saber",
+            new SwordItem(ModToolMaterials.PURE_AMETHYST, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST, 2, -2.0f))));
+
     //Emerald
     public static final Item EMERALD_SWORD = registerItem("emerald_sword",
             new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
@@ -88,6 +96,10 @@ public class ModItems {
     public static final Item EMERALD_HOE = registerItem("emerald_hoe",
             new HoeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.EMERALD, -1, -1.0f))));
+
+    public static final Item EMERALD_SABER = registerItem("emerald_saber",
+            new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 2, -2.0f))));
 
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
             new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
@@ -138,6 +150,10 @@ public class ModItems {
             new HoeItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, -1, -1.0f))));
 
+    public static final Item PURE_AMETHYST_NETHERITE_SABER = registerItem("pure_amethyst_netherite_saber",
+            new SwordItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 2, -2.0f))));
+
     public static final Item PURE_AMETHYST_NETHERITE_HELMET = registerItem("pure_amethyst_netherite_helmet",
             new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
@@ -158,6 +174,19 @@ public class ModItems {
 
     public static final Item SULFUR_DUST = registerItem("sulfur_dust", new Item(new Item.Settings()));
     public static final Item PITCH_COAL = registerItem("pitch_coal", new Item(new Item.Settings()));
+    public static final Item PURE_AMETHYST_APPLE = registerItem("pure_amethyst_apple", new Item(new Item.Settings().food(ModFoodComponents.PURE_AMETHYST_APPLE)));
+
+    public static final Item IRON_SABER = registerItem("iron_saber",
+            new SwordItem(ToolMaterials.IRON, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 2, -2.0f))));
+
+    public static final Item DIAMOND_SABER = registerItem("diamond_saber",
+            new SwordItem(ToolMaterials.DIAMOND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 2, -2.0f))));
+
+    public static final Item NETHERITE_SABER = registerItem("netherite_saber",
+            new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 2, -2.0f))));
 
     //Helper-Method
     private static Item registerItem(String name, Item item) {

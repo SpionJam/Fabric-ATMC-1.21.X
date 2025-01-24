@@ -5,6 +5,7 @@ import net.atmcteam.atmcmod.item.ModItemGroups;
 import net.atmcteam.atmcmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +19,7 @@ public class ATMCMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.PITCH_COAL, 2400); // ca. 120 Sekunden Brenndauer
 	}
 }

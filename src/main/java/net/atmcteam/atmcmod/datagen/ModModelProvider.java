@@ -28,6 +28,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AMETHYST_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AMETHYST_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AMETHYST_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AMETHYST_SABER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AMETHYST_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.AMETHYST_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.AMETHYST_LEGGINGS, Models.GENERATED);
@@ -37,12 +38,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PURE_AMETHYST_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_SABER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_SABER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WITHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.YAMATO, Models.HANDHELD);
         itemModelGenerator.register(ModItems.YAMATO_MAIN, Models.HANDHELD);
@@ -51,9 +54,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SABER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.SULFUR_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.PITCH_COAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_APPLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IRON_SABER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_SABER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_SABER, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_CHESTPLATE));

@@ -1,11 +1,17 @@
 {
   "values": [
     "atmcmod:amethyst_sword",
+    "atmcmod:amethyst_saber",
     "atmcmod:pure_amethyst_sword",
+    "atmcmod:pure_amethyst_saber",
     "atmcmod:emerald_sword",
+    "atmcmod:emerald_saber",
     "atmcmod:witherite_sword",
     "atmcmod:yamato",
     "atmcmod:yamato_main",
-    "atmcmod:pure_amethyst_netherite_sword"
+    "atmcmod:pure_amethyst_netherite_saber",
+    "atmcmod:iron_saber",
+    "atmcmod:diamond_saber",
+    "atmcmod:netherite_saber"
   ]
 }

@@ -18,12 +18,18 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.AMETHYST_SWORD)
+                .add(ModItems.AMETHYST_SABER)
                 .add(ModItems.PURE_AMETHYST_SWORD)
+                .add(ModItems.PURE_AMETHYST_SABER)
                 .add(ModItems.EMERALD_SWORD)
+                .add(ModItems.EMERALD_SABER)
                 .add(ModItems.WITHERITE_SWORD)
                 .add(ModItems.YAMATO)
                 .add(ModItems.YAMATO_MAIN)
-                .add(ModItems.PURE_AMETHYST_NETHERITE_SWORD);
+                .add(ModItems.PURE_AMETHYST_NETHERITE_SABER)
+                .add(ModItems.IRON_SABER)
+                .add(ModItems.DIAMOND_SABER)
+                .add(ModItems.NETHERITE_SABER);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.AMETHYST_PICKAXE)
                 .add(ModItems.PURE_AMETHYST_PICKAXE)
