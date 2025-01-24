@@ -63,7 +63,6 @@ public class ModItemGroups {
                         entries.add(ModItems.IRON_SABER);
                         entries.add(ModItems.DIAMOND_SABER);
                         entries.add(ModItems.NETHERITE_SABER);
-                        entries.add(ModItems.ENDER_BOW);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
