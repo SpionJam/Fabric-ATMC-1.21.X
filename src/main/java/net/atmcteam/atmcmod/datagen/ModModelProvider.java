@@ -45,5 +45,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WITHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.YAMATO, Models.HANDHELD);
         itemModelGenerator.register(ModItems.YAMATO_MAIN, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_INGOT, Models.GENERATED);
     }
 }

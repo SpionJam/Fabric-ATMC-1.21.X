@@ -22,7 +22,9 @@ public enum ModToolMaterials implements ToolMaterial {
     WITHERITE(ModTags.Blocks.INCORRECT_FOR_WITHERITE_TOOL,
             2150, 10.0F, 6F, 22, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
     YAMATO(ModTags.Blocks.INCORRECT_FOR_YAMATO_TOOL,
-            21500, 10.0F, 8F, 24, () -> Ingredient.ofItems(Items.NETHERITE_SCRAP));
+            21500, 10.0F, 8F, 24, () -> Ingredient.ofItems(Items.NETHERITE_SCRAP)),
+    PURE_AMETHYST_NETHERITE(ModTags.Blocks.INCORRECT_FOR_PURE_AMETHYST_NETHERITE_TOOL,
+                            2500, 11.0F, 9F, 22, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

@@ -19,6 +19,8 @@ public class ModTags {
         public static final TagKey<Block> INCORRECT_FOR_WITHERITE_TOOL = createTag("incorrect_for_witherite_tool");
         public static final TagKey<Block> NEEDS_YAMATO_TOOL = createTag("needs_yamato_tool");
         public static final TagKey<Block> INCORRECT_FOR_YAMATO_TOOL = createTag("incorrect_for_yamato_tool");
+        public static final TagKey<Block> NEEDS_PURE_AMETHYST_NETHERITE_TOOL = createTag("needs_pure_amethyst_netherite_tool");
+        public static final TagKey<Block> INCORRECT_FOR_PURE_AMETHYST_NETHERITE_TOOL = createTag("incorrect_for_pure_amethyst_netherite_tool");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(ATMCMod.MOD_ID, name));

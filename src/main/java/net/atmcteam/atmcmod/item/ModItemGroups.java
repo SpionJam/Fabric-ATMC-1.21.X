@@ -35,6 +35,16 @@ public class ModItemGroups {
                         entries.add(ModItems.WITHERITE_SWORD);
                         entries.add(ModItems.YAMATO);
                         entries.add(ModItems.YAMATO_MAIN);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_SWORD);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_AXE);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_SHOVEL);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_HOE);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_HELMET);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_CHESTPLATE);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_LEGGINGS);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_BOOTS);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_INGOT);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,

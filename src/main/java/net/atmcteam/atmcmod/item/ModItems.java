@@ -101,6 +101,45 @@ public class ModItems {
             new SwordItem(ModToolMaterials.YAMATO, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.YAMATO, 4, -2.0f))));
 
+    //Pure_Amethyst_Netherite
+    public static final Item PURE_AMETHYST_NETHERITE_SWORD = registerItem("pure_amethyst_netherite_sword",
+            new SwordItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 3, -2.4f))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_PICKAXE = registerItem("pure_amethyst_netherite_pickaxe",
+            new PickaxeItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 1, -2.8f))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_AXE = registerItem("pure_amethyst_netherite_axe",
+            new AxeItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 5, -3.0f))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_SHOVEL = registerItem("pure_amethyst_netherite_shovel",
+            new ShovelItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 1.5f, -3.0f))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_HOE = registerItem("pure_amethyst_netherite_hoe",
+            new HoeItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, -1, -1.0f))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_HELMET = registerItem("pure_amethyst_netherite_helmet",
+            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_CHESTPLATE = registerItem("pure_amethyst_netherite_chestplate",
+            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_LEGGINGS = registerItem("pure_amethyst_netherite_leggings",
+            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_BOOTS = registerItem("pure_amethyst_netherite_boots",
+            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_INGOT = registerItem("pure_amethyst_netherite_ingot", new Item(new Item.Settings()));
+
     //Helper-Method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ATMCMod.MOD_ID, name), item);

@@ -1,11 +1,9 @@
 package net.atmcteam.atmcmod;
 
 import net.atmcteam.atmcmod.datagen.ModBlockTagProvider;
+import net.atmcteam.atmcmod.datagen.ModItemTagProvider;
 import net.atmcteam.atmcmod.datagen.ModModelProvider;
 import net.atmcteam.atmcmod.datagen.ModRecipeProvider;
-import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -19,6 +17,7 @@ public class ATMCModDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModBlockTagProvider::new);
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModRecipeProvider::new);
+        pack.addProvider(ModItemTagProvider::new);
         // pack.addProvider(AdvancementsProvider::new);
     }
 
