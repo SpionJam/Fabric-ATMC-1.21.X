@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "atmcmod:item/pure_amethyst_netherite_dagger"
+  }
+}

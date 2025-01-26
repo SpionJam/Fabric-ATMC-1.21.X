@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.AMETHYST_SHOVEL);
                         entries.add(ModItems.AMETHYST_HOE);
                         entries.add(ModItems.AMETHYST_SABER);
+                        entries.add(ModItems.AMETHYST_DAGGER);
+                        entries.add(ModItems.AMETHYST_BATTLEAXE);
                         entries.add(ModItems.AMETHYST_HELMET);
                         entries.add(ModItems.AMETHYST_CHESTPLATE);
                         entries.add(ModItems.AMETHYST_LEGGINGS);
@@ -34,12 +36,16 @@ public class ModItemGroups {
                         entries.add(ModItems.PURE_AMETHYST_SHOVEL);
                         entries.add(ModItems.PURE_AMETHYST_HOE);
                         entries.add(ModItems.PURE_AMETHYST_SABER);
+                        entries.add(ModItems.PURE_AMETHYST_DAGGER);
+                        entries.add(ModItems.PURE_AMETHYST_BATTLEAXE);
                         entries.add(ModItems.EMERALD_SWORD);
                         entries.add(ModItems.EMERALD_PICKAXE);
                         entries.add(ModItems.EMERALD_AXE);
                         entries.add(ModItems.EMERALD_SHOVEL);
                         entries.add(ModItems.EMERALD_HOE);
                         entries.add(ModItems.EMERALD_SABER);
+                        entries.add(ModItems.EMERALD_DAGGER);
+                        entries.add(ModItems.EMERALD_BATTLEAXE);
                         entries.add(ModItems.EMERALD_HELMET);
                         entries.add(ModItems.EMERALD_CHESTPLATE);
                         entries.add(ModItems.EMERALD_LEGGINGS);
@@ -53,6 +59,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_SHOVEL);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_HOE);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_SABER);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_DAGGER);
+                        entries.add(ModItems.PURE_AMETHYST_NETHERITE_BATTLEAXE);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_HELMET);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_CHESTPLATE);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_LEGGINGS);
@@ -61,9 +69,16 @@ public class ModItemGroups {
                         entries.add(ModItems.SULFUR_DUST);
                         entries.add(ModItems.PITCH_COAL);
                         entries.add(ModItems.PURE_AMETHYST_APPLE);
+                        entries.add(ModItems.PURE_AMETHYST_CARROT);
                         entries.add(ModItems.IRON_SABER);
+                        entries.add(ModItems.IRON_DAGGER);
+                        entries.add(ModItems.IRON_BATTLEAXE);
                         entries.add(ModItems.DIAMOND_SABER);
+                        entries.add(ModItems.DIAMOND_DAGGER);
+                        entries.add(ModItems.DIAMOND_BATTLEAXE);
                         entries.add(ModItems.NETHERITE_SABER);
+                        entries.add(ModItems.NETHERITE_DAGGER);
+                        entries.add(ModItems.NETHERITE_BATTLEAXE);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,

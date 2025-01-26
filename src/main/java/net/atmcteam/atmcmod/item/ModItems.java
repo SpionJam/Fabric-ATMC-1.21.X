@@ -38,6 +38,14 @@ public class ModItems {
             new SwordItem(ModToolMaterials.AMETHYST, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 2, -2.0f))));
 
+    public static final Item AMETHYST_DAGGER = registerItem("amethyst_dagger",
+            new SwordItem(ModToolMaterials.AMETHYST, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 0, -1.0f))));
+
+    public static final Item AMETHYST_BATTLEAXE = registerItem("amethyst_battleaxe",
+            new SwordItem(ModToolMaterials.AMETHYST, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 8, -3.5F))));
+
     public static final Item AMETHYST_HELMET = registerItem("amethyst_helmet",
             new ArmorItem(ModArmorMaterials.AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
@@ -82,6 +90,14 @@ public class ModItems {
             new SwordItem(ModToolMaterials.PURE_AMETHYST, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST, 2, -2.0f))));
 
+    public static final Item PURE_AMETHYST_DAGGER = registerItem("pure_amethyst_dagger",
+            new SwordItem(ModToolMaterials.PURE_AMETHYST, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST, 0, -1.0f))));
+
+    public static final Item PURE_AMETHYST_BATTLEAXE = registerItem("pure_amethyst_battleaxe",
+            new SwordItem(ModToolMaterials.PURE_AMETHYST, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST, 8, -3.5F))));
+
     //Emerald
     public static final Item EMERALD_SWORD = registerItem("emerald_sword",
             new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
@@ -106,6 +122,14 @@ public class ModItems {
     public static final Item EMERALD_SABER = registerItem("emerald_saber",
             new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 2, -2.0f))));
+
+    public static final Item EMERALD_DAGGER = registerItem("emerald_dagger",
+            new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -1.0f))));
+
+    public static final Item EMERALD_BATTLEAXE = registerItem("emerald_battleaxe",
+            new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 8, -3.5F))));
 
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
             new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
@@ -160,6 +184,14 @@ public class ModItems {
             new SwordItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 2, -2.0f))));
 
+    public static final Item PURE_AMETHYST_NETHERITE_DAGGER = registerItem("pure_amethyst_netherite_dagger",
+            new SwordItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 0, -1.0f))));
+
+    public static final Item PURE_AMETHYST_NETHERITE_BATTLEAXE = registerItem("pure_amethyst_netherite_battleaxe",
+            new SwordItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST_NETHERITE, 8, -3.5F))));
+
     public static final Item PURE_AMETHYST_NETHERITE_HELMET = registerItem("pure_amethyst_netherite_helmet",
             new ModArmorItem(ModArmorMaterials.PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
@@ -195,17 +227,50 @@ public class ModItems {
         }
     });
 
+    public static final Item PURE_AMETHYST_CARROT = registerItem("pure_amethyst_carrot", new Item(new Item.Settings().food(ModFoodComponents.PURE_AMETHYST_CARROT)) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            super.appendTooltip(stack, context, tooltip, type);
+            tooltip.add(Text.translatable("tooltip.atmcmod.pure_amethyst_carrot.tooltip"));
+        }
+    });
+
     public static final Item IRON_SABER = registerItem("iron_saber",
             new SwordItem(ToolMaterials.IRON, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 2, -2.0f))));
+
+    public static final Item IRON_DAGGER = registerItem("iron_dagger",
+            new SwordItem(ToolMaterials.IRON, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 0, -1.0f))));
+
+    public static final Item IRON_BATTLEAXE = registerItem("iron_battleaxe",
+            new SwordItem(ToolMaterials.IRON, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 8, -3.5F))));
+
 
     public static final Item DIAMOND_SABER = registerItem("diamond_saber",
             new SwordItem(ToolMaterials.DIAMOND, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 2, -2.0f))));
 
+    public static final Item DIAMOND_DAGGER = registerItem("diamond_dagger",
+            new SwordItem(ToolMaterials.DIAMOND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 0, -1.0f))));
+
+    public static final Item DIAMOND_BATTLEAXE = registerItem("diamond_battleaxe",
+            new SwordItem(ToolMaterials.DIAMOND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 8, -3.5F))));
+
     public static final Item NETHERITE_SABER = registerItem("netherite_saber",
             new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 2, -2.0f))));
+
+    public static final Item NETHERITE_DAGGER = registerItem("netherite_dagger",
+            new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 0, -1.0f))));
+
+    public static final Item NETHERITE_BATTLEAXE = registerItem("netherite_battleaxe",
+            new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 8, -3.5F))));
 
     //Helper-Method
     private static Item registerItem(String name, Item item) {

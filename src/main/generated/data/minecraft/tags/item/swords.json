@@ -2,16 +2,31 @@
   "values": [
     "atmcmod:amethyst_sword",
     "atmcmod:amethyst_saber",
+    "atmcmod:amethyst_dagger",
+    "atmcmod:amethyst_battleaxe",
     "atmcmod:pure_amethyst_sword",
     "atmcmod:pure_amethyst_saber",
+    "atmcmod:pure_amethyst_dagger",
+    "atmcmod:pure_amethyst_battleaxe",
     "atmcmod:emerald_sword",
     "atmcmod:emerald_saber",
+    "atmcmod:emerald_dagger",
+    "atmcmod:emerald_battleaxe",
     "atmcmod:witherite_sword",
     "atmcmod:yamato",
     "atmcmod:yamato_main",
+    "atmcmod:pure_amethyst_netherite_sword",
     "atmcmod:pure_amethyst_netherite_saber",
+    "atmcmod:pure_amethyst_netherite_dagger",
+    "atmcmod:pure_amethyst_netherite_battleaxe",
     "atmcmod:iron_saber",
+    "atmcmod:iron_dagger",
+    "atmcmod:iron_battleaxe",
     "atmcmod:diamond_saber",
-    "atmcmod:netherite_saber"
+    "atmcmod:diamond_dagger",
+    "atmcmod:diamond_battleaxe",
+    "atmcmod:netherite_saber",
+    "atmcmod:netherite_dagger",
+    "atmcmod:netherite_battleaxe"
   ]
 }
