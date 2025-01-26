@@ -55,6 +55,7 @@ public class ModItems {
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
     public static final Item PURE_AMETHYST_SHARD = registerItem("pure_amethyst_shard", new Item(new Item.Settings()));
+    public static final Item PURE_AMETHYST_GEM = registerItem("pure_amethyst_gem", new Item(new Item.Settings()));
 
     //Pure_Amethyst
     public static final Item PURE_AMETHYST_SWORD = registerItem("pure_amethyst_sword",

@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModItems.AMETHYST_LEGGINGS);
                         entries.add(ModItems.AMETHYST_BOOTS);
                         entries.add(ModItems.PURE_AMETHYST_SHARD);
+                        entries.add(ModItems.PURE_AMETHYST_GEM);
                         entries.add(ModItems.PURE_AMETHYST_SWORD);
                         entries.add(ModItems.PURE_AMETHYST_PICKAXE);
                         entries.add(ModItems.PURE_AMETHYST_AXE);

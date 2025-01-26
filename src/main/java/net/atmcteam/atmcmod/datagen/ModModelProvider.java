@@ -43,6 +43,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PURE_AMETHYST_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_SABER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURE_AMETHYST_GEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.HANDHELD);
