@@ -2,7 +2,6 @@ package net.atmcteam.atmcmod.item;
 
 import net.atmcteam.atmcmod.ATMCMod;
 import net.atmcteam.atmcmod.item.custom.ModArmorItem;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -206,7 +205,6 @@ public class ModItems {
     public static final Item NETHERITE_SABER = registerItem("netherite_saber",
             new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 2, -2.0f))));
-
 
     //Helper-Method
     private static Item registerItem(String name, Item item) {

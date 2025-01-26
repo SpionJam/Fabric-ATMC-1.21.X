@@ -73,6 +73,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURE_AMETHYST_ORE);
                         entries.add(ModBlocks.SULFUR_ORE);
                         entries.add(ModBlocks.PITCH_COAL_ORE);
+                        entries.add(ModBlocks.PURE_AMETHYST_BLOCK);
+                        entries.add(ModBlocks.BUDDING_PURE_AMETHYST);
+                        entries.add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

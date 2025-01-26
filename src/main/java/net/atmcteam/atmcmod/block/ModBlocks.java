@@ -19,6 +19,18 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block PURE_AMETHYST_BLOCK = registerBlock("pure_amethyst_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block BUDDING_PURE_AMETHYST = registerBlock("budding_pure_amethyst",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block SMOOTH_PURE_AMETHYST_BLOCK = registerBlock("smooth_pure_amethyst_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block SULFUR_ORE = registerBlock("sulfur_ore",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));

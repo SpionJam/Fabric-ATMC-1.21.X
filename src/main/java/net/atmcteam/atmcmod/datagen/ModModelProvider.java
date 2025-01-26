@@ -19,6 +19,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURE_AMETHYST_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SULFUR_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PITCH_COAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURE_AMETHYST_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BUDDING_PURE_AMETHYST);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
     }
 
     @Override

@@ -1,5 +1,8 @@
 {
   "values": [
-    "atmcmod:pure_amethyst_ore"
+    "atmcmod:pure_amethyst_ore",
+    "atmcmod:pure_amethyst_block",
+    "atmcmod:budding_pure_amethyst",
+    "atmcmod:smooth_pure_amethyst_block"
   ]
 }

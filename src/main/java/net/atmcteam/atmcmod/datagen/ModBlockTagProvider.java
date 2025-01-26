@@ -19,14 +19,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.PURE_AMETHYST_ORE)
                 .add(ModBlocks.SULFUR_ORE)
-                .add(ModBlocks.PITCH_COAL_ORE);
+                .add(ModBlocks.PITCH_COAL_ORE)
+                .add(ModBlocks.PURE_AMETHYST_BLOCK)
+                .add(ModBlocks.BUDDING_PURE_AMETHYST)
+                .add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SULFUR_ORE)
                 .add(ModBlocks.PITCH_COAL_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.PURE_AMETHYST_ORE);
+                .add(ModBlocks.PURE_AMETHYST_ORE)
+                .add(ModBlocks.PURE_AMETHYST_BLOCK)
+                .add(ModBlocks.BUDDING_PURE_AMETHYST)
+                .add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
         //Alles was mit diamond kann auch mit pure amethyst abgebaut werden
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_PURE_AMETHYST_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
