@@ -62,6 +62,15 @@
   "item.atmcmod.netherite_saber": "Netherite Saber",
   "item.atmcmod.netherite_dagger": "Netherite Dagger",
   "item.atmcmod.netherite_battleaxe": "Netherite Battleaxe",
+  "item.atmcmod.end_essence": "§5End Essence§r",
+  "item.atmcmod.end_essence_ingot": "§5End Essence Ingot§r",
+  "item.atmcmod.forest_essence": "§2Forest Essence§r",
+  "item.atmcmod.forest_essence_ingot": "§2Forest Essence Ingot§r",
+  "item.atmcmod.ocean_essence": "§3Ocean Essence§r",
+  "item.atmcmod.ocean_essence_ingot": "§3Ocean Essence Ingot§r",
+  "item.atmcmod.nether_essence": "§4Nether Essence§r",
+  "item.atmcmod.nether_essence_ingot": "§4Nether Essence Ingot§r",
+  "item.atmcmod.end_glowstone_dust": "End Glowstone Dust",
 
   "block.atmcmod.pure_amethyst_ore": "Pure Amethyst Ore",
   "block.atmcmod.sulfur_ore": "Sulfur Ore",
@@ -69,6 +78,7 @@
   "block.atmcmod.pure_amethyst_block": "Block of Pure Amethyst",
   "block.atmcmod.budding_pure_amethyst": "Budding Pure Amethyst",
   "block.atmcmod.smooth_pure_amethyst_block": "Smooth Block of Pure Amethyst",
+  "block.atmcmod.end_glowstone": "End Glowstone",
 
   "itemgroup.atmcmod.atmc_mod_items": "ATMC Mod Items",
   "itemgroup.atmcmod.atmc_mod_blocks": "ATMC Mod Blocks",
@@ -78,5 +88,13 @@
   "tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l2": "Regeneration II, Health Boost I,",
   "tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l3": "Absorption, Resistance II,",
   "tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l4": "and Strength for a long duration.",
-  "tooltip.atmcmod.pure_amethyst_carrot.tooltip": "Only edible because sam wanted it!"
+  "tooltip.atmcmod.pure_amethyst_carrot.tooltip": "§7Only edible because Sam wanted it!§r",
+  "tooltip.atmcmod.end_essence.tooltip.l1": "§7The essence of the§r §5End§r§7.§r",
+  "tooltip.atmcmod.end_essence.tooltip.l2": "§7A powerful energy from the void.§r",
+  "tooltip.atmcmod.forest_essence.tooltip.l1": "§7The essence of the§r §2forest§r§7.",
+  "tooltip.atmcmod.forest_essence.tooltip.l2": "§7A life-giving force from nature.§r",
+  "tooltip.atmcmod.ocean_essence.tooltip.l1": "§7The essence of the§r §3ocean§r§7.§r",
+  "tooltip.atmcmod.ocean_essence.tooltip.l2": "§7A tranquil energy of the seas.§r",
+  "tooltip.atmcmod.nether_essence.tooltip.l1": "§7The essence of the§r §4Nether§r§7.",
+  "tooltip.atmcmod.nether_essence.tooltip.l2": "§7Fiery power from the underworld.§r"
 }

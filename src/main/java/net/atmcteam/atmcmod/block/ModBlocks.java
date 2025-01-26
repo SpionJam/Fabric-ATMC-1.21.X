@@ -39,6 +39,14 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block END_GLOWSTONE = registerBlock("end_glowstone",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(0.3f)           // Blockstärke
+                    .sounds(BlockSoundGroup.GLASS)
+                    .luminance(blockState -> 15)));  // Luminanz als Funktion auf Basis des Blockzustands
+
+
+
     //Helper-Method
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

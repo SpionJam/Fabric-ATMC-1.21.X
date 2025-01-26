@@ -22,6 +22,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURE_AMETHYST_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BUDDING_PURE_AMETHYST);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_GLOWSTONE);
     }
 
     @Override
@@ -77,6 +78,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NETHERITE_SABER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.END_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.END_ESSENCE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FOREST_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FOREST_ESSENCE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OCEAN_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OCEAN_ESSENCE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NETHER_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NETHER_ESSENCE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.END_GLOWSTONE_DUST, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_CHESTPLATE));

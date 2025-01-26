@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "atmcmod:block/end_glowstone"
+    }
+  }
+}

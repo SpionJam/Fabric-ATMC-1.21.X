@@ -272,6 +272,52 @@ public class ModItems {
             new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 8, -3.5F))));
 
+    public static final Item END_ESSENCE = registerItem("end_essence", new Item(new Item.Settings()) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            super.appendTooltip(stack, context, tooltip, type);
+            tooltip.add(Text.translatable("tooltip.atmcmod.end_essence.tooltip.l1"));
+            tooltip.add(Text.translatable("tooltip.atmcmod.end_essence.tooltip.l2"));
+        }
+    });
+
+    public static final Item END_ESSENCE_INGOT = registerItem("end_essence_ingot", new Item(new Item.Settings()));
+
+    public static final Item FOREST_ESSENCE = registerItem("forest_essence", new Item(new Item.Settings()) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            super.appendTooltip(stack, context, tooltip, type);
+            tooltip.add(Text.translatable("tooltip.atmcmod.forest_essence.tooltip.l1"));
+            tooltip.add(Text.translatable("tooltip.atmcmod.forest_essence.tooltip.l2"));
+        }
+    });
+
+    public static final Item FOREST_ESSENCE_INGOT = registerItem("forest_essence_ingot", new Item(new Item.Settings()));
+
+    public static final Item OCEAN_ESSENCE = registerItem("ocean_essence", new Item(new Item.Settings()) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            super.appendTooltip(stack, context, tooltip, type);
+            tooltip.add(Text.translatable("tooltip.atmcmod.ocean_essence.tooltip.l1"));
+            tooltip.add(Text.translatable("tooltip.atmcmod.ocean_essence.tooltip.l2"));
+        }
+    });
+
+    public static final Item OCEAN_ESSENCE_INGOT = registerItem("ocean_essence_ingot", new Item(new Item.Settings()));
+
+    public static final Item NETHER_ESSENCE = registerItem("nether_essence", new Item(new Item.Settings()) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            super.appendTooltip(stack, context, tooltip, type);
+            tooltip.add(Text.translatable("tooltip.atmcmod.nether_essence.tooltip.l1"));
+            tooltip.add(Text.translatable("tooltip.atmcmod.nether_essence.tooltip.l2"));
+        }
+    });
+
+    public static final Item NETHER_ESSENCE_INGOT = registerItem("nether_essence_ingot", new Item(new Item.Settings()));
+
+    public static final Item END_GLOWSTONE_DUST = registerItem("end_glowstone_dust", new Item(new Item.Settings()));
+
     //Helper-Method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ATMCMod.MOD_ID, name), item);

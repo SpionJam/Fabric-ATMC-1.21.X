@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_end_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "atmcmod:end_essence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "atmcmod:end_glowstone_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_end_essence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "atmcmod:end_glowstone_dust"
+    ]
+  }
+}

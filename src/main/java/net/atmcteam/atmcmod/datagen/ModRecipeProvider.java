@@ -1,5 +1,6 @@
 package net.atmcteam.atmcmod.datagen;
 
+import net.atmcteam.atmcmod.block.ModBlocks;
 import net.atmcteam.atmcmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -93,6 +94,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("A A")
                 .input('A', Items.AMETHYST_SHARD)
                 .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.END_GLOWSTONE_DUST, 8)
+                .pattern("GGG")
+                .pattern("GEG")
+                .pattern("GGG")
+                .input('G', Items.GLOWSTONE_DUST)
+                .input('E', ModItems.END_ESSENCE)
+                .criterion(hasItem(ModItems.END_ESSENCE), conditionsFromItem(ModItems.END_ESSENCE))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.END_GLOWSTONE)
+                .pattern("EE")
+                .pattern("EE")
+                .input('E', ModItems.END_GLOWSTONE_DUST)
+                .criterion(hasItem(ModItems.END_GLOWSTONE_DUST), conditionsFromItem(ModItems.END_GLOWSTONE_DUST))
                 .offerTo(recipeExporter);
     }
 

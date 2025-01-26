@@ -79,6 +79,15 @@ public class ModItemGroups {
                         entries.add(ModItems.NETHERITE_SABER);
                         entries.add(ModItems.NETHERITE_DAGGER);
                         entries.add(ModItems.NETHERITE_BATTLEAXE);
+                        entries.add(ModItems.END_ESSENCE);
+                        entries.add(ModItems.END_ESSENCE_INGOT);
+                        entries.add(ModItems.FOREST_ESSENCE);
+                        entries.add(ModItems.FOREST_ESSENCE_INGOT);
+                        entries.add(ModItems.OCEAN_ESSENCE);
+                        entries.add(ModItems.OCEAN_ESSENCE_INGOT);
+                        entries.add(ModItems.NETHER_ESSENCE);
+                        entries.add(ModItems.NETHER_ESSENCE_INGOT);
+                        entries.add(ModItems.END_GLOWSTONE_DUST);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
@@ -92,6 +101,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURE_AMETHYST_BLOCK);
                         entries.add(ModBlocks.BUDDING_PURE_AMETHYST);
                         entries.add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
+                        entries.add(ModBlocks.END_GLOWSTONE);
                     }).build());
 
     public static void registerItemGroups() {
