@@ -47,6 +47,26 @@ public class ModArmorMaterials {
             }), 23, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(ModItems.PURE_AMETHYST_NETHERITE_INGOT),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "pure_amethyst_netherite"))), 3.0F,0.1F));
 
+    public static final RegistryEntry<ArmorMaterial> COPPER_ARMOR_MATERIAL = registerArmorMaterial("copper",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 1);
+                map.put(ArmorItem.Type.LEGGINGS, 2);
+                map.put(ArmorItem.Type.CHESTPLATE, 4);
+                map.put(ArmorItem.Type.HELMET, 2);
+                map.put(ArmorItem.Type.BODY, 8);
+            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(Items.COPPER_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "copper"))), 2.0F,0.05F));
+
+    public static final RegistryEntry<ArmorMaterial> OXIDIZED_COPPER_ARMOR_MATERIAL = registerArmorMaterial("oxidized_copper",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 1);
+                map.put(ArmorItem.Type.LEGGINGS, 2);
+                map.put(ArmorItem.Type.CHESTPLATE, 4);
+                map.put(ArmorItem.Type.HELMET, 2);
+                map.put(ArmorItem.Type.BODY, 8);
+            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(Items.COPPER_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "oxidized_copper"))), 2.0F,0.05F));
+
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(ATMCMod.MOD_ID, name), material.get());
     }

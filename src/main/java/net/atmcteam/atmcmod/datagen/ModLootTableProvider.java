@@ -13,6 +13,7 @@ import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.resource.metadata.BlockEntry;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -30,6 +31,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PITCH_COAL_ORE, createOreDropBonus(ModBlocks.PITCH_COAL_ORE, ModItems.PITCH_COAL));
 
         addDrop(ModBlocks.PURE_AMETHYST_ORE, createOreDrop(ModBlocks.PURE_AMETHYST_ORE, ModItems.PURE_AMETHYST_GEM));
+        addDrop(ModBlocks.PITCH_COAL_BLOCK, createBlockDrop(ModBlocks.PITCH_COAL_BLOCK, ModBlocks.PITCH_COAL_BLOCK));
     }
 
     private LootTable.Builder createOreDropBonus(Block block, net.minecraft.item.Item dropItem) {
@@ -50,5 +52,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                         .with(ItemEntry.builder(dropItem)) // Das gedroppte Item
                         .conditionally(SurvivesExplosionLootCondition.builder()) // Überlebt Explosionen
                 );
+    }
+
+    private LootTable.Builder createBlockDrop(Block block, Block blockItem){
+        return LootTable.builder()
+                .pool(LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .with(ItemEntry.builder(blockItem)));
     }
 }

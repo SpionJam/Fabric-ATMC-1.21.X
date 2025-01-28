@@ -20,13 +20,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURE_AMETHYST_ORE)
                 .add(ModBlocks.SULFUR_ORE)
                 .add(ModBlocks.PITCH_COAL_ORE)
+                .add(ModBlocks.PITCH_COAL_BLOCK)
                 .add(ModBlocks.PURE_AMETHYST_BLOCK)
                 .add(ModBlocks.BUDDING_PURE_AMETHYST)
                 .add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SULFUR_ORE)
-                .add(ModBlocks.PITCH_COAL_ORE);
+                .add(ModBlocks.PITCH_COAL_ORE)
+                .add(ModBlocks.PITCH_COAL_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.PURE_AMETHYST_ORE)

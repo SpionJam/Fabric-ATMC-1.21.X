@@ -19,6 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURE_AMETHYST_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SULFUR_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PITCH_COAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PITCH_COAL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURE_AMETHYST_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BUDDING_PURE_AMETHYST);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
@@ -54,8 +55,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EMERALD_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_BATTLEAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WITHERITE_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.YAMATO, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.YAMATO_MAIN, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.JUSTIFIER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.JUSTIFIER_MAIN, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_AXE, Models.HANDHELD);
@@ -87,6 +88,23 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NETHER_ESSENCE, Models.GENERATED);
         itemModelGenerator.register(ModItems.NETHER_ESSENCE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.END_GLOWSTONE_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_SABER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_SABER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OXIDIZED_COPPER_BATTLEAXE, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_CHESTPLATE));
@@ -100,5 +118,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_NETHERITE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_NETHERITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_NETHERITE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OXIDIZED_COPPER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OXIDIZED_COPPER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OXIDIZED_COPPER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OXIDIZED_COPPER_BOOTS));
     }
 }

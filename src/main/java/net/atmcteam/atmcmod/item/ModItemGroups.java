@@ -51,8 +51,8 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_LEGGINGS);
                         entries.add(ModItems.EMERALD_BOOTS);
                         entries.add(ModItems.WITHERITE_SWORD);
-                        entries.add(ModItems.YAMATO);
-                        entries.add(ModItems.YAMATO_MAIN);
+                        entries.add(ModItems.JUSTIFIER);
+                        entries.add(ModItems.JUSTIFIER_MAIN);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_SWORD);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_AXE);
@@ -88,6 +88,31 @@ public class ModItemGroups {
                         entries.add(ModItems.NETHER_ESSENCE);
                         entries.add(ModItems.NETHER_ESSENCE_INGOT);
                         entries.add(ModItems.END_GLOWSTONE_DUST);
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_HOE);
+                        entries.add(ModItems.COPPER_SABER);
+                        entries.add(ModItems.COPPER_DAGGER);
+                        entries.add(ModItems.COPPER_BATTLEAXE);
+                        entries.add(ModItems.COPPER_HELMET);
+                        entries.add(ModItems.COPPER_CHESTPLATE);
+                        entries.add(ModItems.COPPER_LEGGINGS);
+                        entries.add(ModItems.COPPER_BOOTS);
+                        entries.add(ModItems.OXIDIZED_COPPER_INGOT);
+                        entries.add(ModItems.OXIDIZED_COPPER_SWORD);
+                        entries.add(ModItems.OXIDIZED_COPPER_PICKAXE);
+                        entries.add(ModItems.OXIDIZED_COPPER_AXE);
+                        entries.add(ModItems.OXIDIZED_COPPER_SHOVEL);
+                        entries.add(ModItems.OXIDIZED_COPPER_HOE);
+                        entries.add(ModItems.OXIDIZED_COPPER_SABER);
+                        entries.add(ModItems.OXIDIZED_COPPER_DAGGER);
+                        entries.add(ModItems.OXIDIZED_COPPER_BATTLEAXE);
+                        entries.add(ModItems.OXIDIZED_COPPER_HELMET);
+                        entries.add(ModItems.OXIDIZED_COPPER_CHESTPLATE);
+                        entries.add(ModItems.OXIDIZED_COPPER_LEGGINGS);
+                        entries.add(ModItems.OXIDIZED_COPPER_BOOTS);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
@@ -98,6 +123,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURE_AMETHYST_ORE);
                         entries.add(ModBlocks.SULFUR_ORE);
                         entries.add(ModBlocks.PITCH_COAL_ORE);
+                        entries.add(ModBlocks.PITCH_COAL_BLOCK);
                         entries.add(ModBlocks.PURE_AMETHYST_BLOCK);
                         entries.add(ModBlocks.BUDDING_PURE_AMETHYST);
                         entries.add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);

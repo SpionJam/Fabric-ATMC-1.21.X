@@ -151,13 +151,13 @@ public class ModItems {
             new SwordItem(ModToolMaterials.WITHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 3, -2.4f))));
 
-    public static final Item YAMATO = registerItem("yamato",
-            new SwordItem(ModToolMaterials.YAMATO, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.YAMATO, 1, -2.0f))));
+    public static final Item JUSTIFIER = registerItem("justifier",
+            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 1, -2.0f))));
 
-    public static final Item YAMATO_MAIN = registerItem("yamato_main",
-            new SwordItem(ModToolMaterials.YAMATO, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.YAMATO, 4, -2.0f))));
+    public static final Item JUSTIFIER_MAIN = registerItem("justifier_main",
+            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
 
     //Pure_Amethyst_Netherite
     public static final Item PURE_AMETHYST_NETHERITE_SWORD = registerItem("pure_amethyst_netherite_sword",
@@ -317,6 +317,106 @@ public class ModItems {
     public static final Item NETHER_ESSENCE_INGOT = registerItem("nether_essence_ingot", new Item(new Item.Settings()));
 
     public static final Item END_GLOWSTONE_DUST = registerItem("end_glowstone_dust", new Item(new Item.Settings()));
+
+//Copper
+    public static final Item COPPER_SWORD = registerItem("copper_sword",
+            new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 3, -2.4f))));
+
+    public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
+            new PickaxeItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 1, -2.8f))));
+
+    public static final Item COPPER_AXE = registerItem("copper_axe",
+            new AxeItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 5, -3.0f))));
+
+    public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
+            new ShovelItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.COPPER, 1.5f, -3.0f))));
+
+    public static final Item COPPER_HOE = registerItem("copper_hoe",
+            new HoeItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER, -1, -1.0f))));
+
+    public static final Item COPPER_SABER = registerItem("copper_saber",
+            new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 2, -2.0f))));
+
+    public static final Item COPPER_DAGGER = registerItem("copper_dagger",
+            new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 0, -1.0f))));
+
+    public static final Item COPPER_BATTLEAXE = registerItem("copper_battleaxe",
+            new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 8, -3.5F))));
+
+    public static final Item COPPER_HELMET = registerItem("copper_helmet",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item COPPER_BOOTS = registerItem("copper_boots",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+
+    public static final Item OXIDIZED_COPPER_INGOT = registerItem("oxidized_copper_ingot", new Item(new Item.Settings()));
+
+    public static final Item OXIDIZED_COPPER_SWORD = registerItem("oxidized_copper_sword",
+            new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 3, -2.4f))));
+
+    public static final Item OXIDIZED_COPPER_PICKAXE = registerItem("oxidized_copper_pickaxe",
+            new PickaxeItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 1, -2.8f))));
+
+    public static final Item OXIDIZED_COPPER_AXE = registerItem("oxidized_copper_axe",
+            new AxeItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 5, -3.0f))));
+
+    public static final Item OXIDIZED_COPPER_SHOVEL = registerItem("oxidized_copper_shovel",
+            new ShovelItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.COPPER, 1.5f, -3.0f))));
+
+    public static final Item OXIDIZED_COPPER_HOE = registerItem("oxidized_copper_hoe",
+            new HoeItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER, -1, -1.0f))));
+
+    public static final Item OXIDIZED_COPPER_SABER = registerItem("oxidized_copper_saber",
+            new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 2, -2.0f))));
+
+    public static final Item OXIDIZED_COPPER_DAGGER = registerItem("oxidized_copper_dagger",
+            new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 0, -1.0f))));
+
+    public static final Item OXIDIZED_COPPER_BATTLEAXE = registerItem("oxidized_copper_battleaxe",
+            new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 8, -3.5F))));
+
+    public static final Item OXIDIZED_COPPER_HELMET = registerItem("oxidized_copper_helmet",
+            new ArmorItem(ModArmorMaterials.OXIDIZED_COPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item OXIDIZED_COPPER_CHESTPLATE = registerItem("oxidized_copper_chestplate",
+            new ArmorItem(ModArmorMaterials.OXIDIZED_COPPER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item OXIDIZED_COPPER_LEGGINGS = registerItem("oxidized_copper_leggings",
+            new ArmorItem(ModArmorMaterials.OXIDIZED_COPPER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item OXIDIZED_COPPER_BOOTS = registerItem("oxidized_copper_boots",
+            new ArmorItem(ModArmorMaterials.OXIDIZED_COPPER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
     //Helper-Method
     private static Item registerItem(String name, Item item) {

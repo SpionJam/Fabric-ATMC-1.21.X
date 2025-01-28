@@ -39,6 +39,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block PITCH_COAL_BLOCK = registerBlock("pitch_coal_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
     public static final Block END_GLOWSTONE = registerBlock("end_glowstone",
             new Block(AbstractBlock.Settings.create()
                     .strength(0.3f)           // Blockstärke
