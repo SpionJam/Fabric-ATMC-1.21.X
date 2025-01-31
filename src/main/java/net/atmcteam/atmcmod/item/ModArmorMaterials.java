@@ -77,6 +77,16 @@ public class ModArmorMaterials {
             }), 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(Items.COPPER_INGOT),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "oxidized_copper"))), 2.0F,0.05F));
 
+    public static final RegistryEntry<ArmorMaterial> QUARTZ_ARMOR_MATERIAL = registerArmorMaterial("quartz",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 2);
+                map.put(ArmorItem.Type.LEGGINGS, 5);
+                map.put(ArmorItem.Type.CHESTPLATE, 7);
+                map.put(ArmorItem.Type.HELMET, 2);
+                map.put(ArmorItem.Type.BODY, 10);
+            }), 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(Items.QUARTZ),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "quartz"))), 0,0));
+
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(ATMCMod.MOD_ID, name), material.get());
     }

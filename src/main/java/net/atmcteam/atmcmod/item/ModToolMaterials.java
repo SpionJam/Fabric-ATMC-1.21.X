@@ -26,7 +26,10 @@ public enum ModToolMaterials implements ToolMaterial {
     PURE_AMETHYST_NETHERITE(ModTags.Blocks.INCORRECT_FOR_PURE_AMETHYST_NETHERITE_TOOL,
                             2500, 11.0F, 9F, 22, () -> Ingredient.ofItems(ModItems.PURE_AMETHYST_NETHERITE_INGOT)),
     COPPER(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL,
-                            200, 5.0F, 1.5F, 9, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+                            200, 5.0F, 1.5F, 9, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    QUARTZ(ModTags.Blocks.INCORRECT_FOR_QUARTZ_TOOL,
+                            350, 6.25F, 2.25F, 15, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

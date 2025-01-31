@@ -366,6 +366,110 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('C', Items.CHAIN)
                 .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
                 .offerTo(recipeExporter);
+
+        //Quartz
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.QUARTZ_SWORD)
+                .pattern(" Q ")
+                .pattern(" Q ")
+                .pattern(" S ")
+                .input('Q', Items.QUARTZ)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.QUARTZ_PICKAXE)
+                .pattern("QQQ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Q', Items.QUARTZ)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.QUARTZ_AXE)
+                .pattern(" QQ")
+                .pattern(" SQ")
+                .pattern(" S ")
+                .input('Q', Items.QUARTZ)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.QUARTZ_SHOVEL)
+                .pattern(" Q ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Q', Items.QUARTZ)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.QUARTZ_HOE)
+                .pattern(" QQ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Q', Items.QUARTZ)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.QUARTZ_SABER)
+                .pattern("  Q")
+                .pattern(" Q ")
+                .pattern(" S ")
+                .input('Q', Items.QUARTZ)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.QUARTZ_DAGGER)
+                .pattern(" Q")
+                .pattern(" S")
+                .input('Q', Items.QUARTZ)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.QUARTZ_BATTLEAXE)
+                .pattern("QQQ")
+                .pattern("QSQ")
+                .pattern(" S ")
+                .input('Q', Items.QUARTZ)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.QUARTZ_HELMET)
+                .pattern("QQQ")
+                .pattern("Q Q")
+                .pattern("   ")
+                .input('Q', Items.QUARTZ)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.QUARTZ_CHESTPLATE)
+                .pattern("Q Q")
+                .pattern("QQQ")
+                .pattern("QQQ")
+                .input('Q', Items.QUARTZ)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.QUARTZ_LEGGINGS)
+                .pattern("QQQ")
+                .pattern("Q Q")
+                .pattern("Q Q")
+                .input('Q', Items.QUARTZ)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.QUARTZ_BOOTS)
+                .pattern("   ")
+                .pattern("Q Q")
+                .pattern("Q Q")
+                .input('Q', Items.QUARTZ)
+                .criterion(hasItem(Items.QUARTZ), conditionsFromItem(Items.QUARTZ))
+                .offerTo(recipeExporter);
     }
 
 

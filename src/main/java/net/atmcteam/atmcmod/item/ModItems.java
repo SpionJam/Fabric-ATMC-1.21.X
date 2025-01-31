@@ -454,6 +454,55 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.OXIDIZED_COPPER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
+    //Quartz
+    public static final Item QUARTZ_SWORD = registerItem("quartz_sword",
+            new SwordItem(ModToolMaterials.QUARTZ, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.QUARTZ, 3, -2.4f))));
+
+    public static final Item QUARTZ_PICKAXE = registerItem("quartz_pickaxe",
+            new PickaxeItem(ModToolMaterials.QUARTZ, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.QUARTZ, 1, -2.8f))));
+
+    public static final Item QUARTZ_AXE = registerItem("quartz_axe",
+            new AxeItem(ModToolMaterials.QUARTZ, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.QUARTZ, 5, -3.0f))));
+
+    public static final Item QUARTZ_SHOVEL = registerItem("quartz_shovel",
+            new ShovelItem(ModToolMaterials.QUARTZ, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.QUARTZ, 1.5f, -3.0f))));
+
+    public static final Item QUARTZ_HOE = registerItem("quartz_hoe",
+            new HoeItem(ModToolMaterials.QUARTZ, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.QUARTZ, -1, -1.0f))));
+
+    public static final Item QUARTZ_SABER = registerItem("quartz_saber",
+            new SwordItem(ModToolMaterials.QUARTZ, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.QUARTZ, 2, -2.0f))));
+
+    public static final Item QUARTZ_DAGGER = registerItem("quartz_dagger",
+            new SwordItem(ModToolMaterials.QUARTZ, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.QUARTZ, 0, -1.0f))));
+
+    public static final Item QUARTZ_BATTLEAXE = registerItem("quartz_battleaxe",
+            new SwordItem(ModToolMaterials.QUARTZ, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.QUARTZ, 8, -3.5F))));
+
+    public static final Item QUARTZ_HELMET = registerItem("quartz_helmet",
+            new ArmorItem(ModArmorMaterials.QUARTZ_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item QUARTZ_CHESTPLATE = registerItem("quartz_chestplate",
+            new ArmorItem(ModArmorMaterials.QUARTZ_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item QUARTZ_LEGGINGS = registerItem("quartz_leggings",
+            new ArmorItem(ModArmorMaterials.QUARTZ_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item QUARTZ_BOOTS = registerItem("quartz_boots",
+            new ArmorItem(ModArmorMaterials.QUARTZ_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
     //Helper-Method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ATMCMod.MOD_ID, name), item);

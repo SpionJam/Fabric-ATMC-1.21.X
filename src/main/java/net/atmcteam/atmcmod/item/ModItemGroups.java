@@ -54,14 +54,6 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_CHESTPLATE);
                         entries.add(ModItems.EMERALD_LEGGINGS);
                         entries.add(ModItems.EMERALD_BOOTS);
-                        entries.add(ModItems.WITHERITE_SWORD);
-                        entries.add(ModItems.JUSTIFIER);
-                        entries.add(ModItems.JUSTIFIER_MAIN);
-                        entries.add(ModItems.MARCEL_MAIN);
-                        entries.add(ModItems.VOIDENING_DEATH_SCYTHE);
-                        entries.add(ModItems.WITHERITE_DOUBLE_SWORD);
-                        entries.add(ModItems.DARK_STEEL_CLAYMORE);
-                        entries.add(ModItems.CRIMSON_COMMAND_SWORD);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_SWORD);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_AXE);
@@ -122,6 +114,18 @@ public class ModItemGroups {
                         entries.add(ModItems.OXIDIZED_COPPER_CHESTPLATE);
                         entries.add(ModItems.OXIDIZED_COPPER_LEGGINGS);
                         entries.add(ModItems.OXIDIZED_COPPER_BOOTS);
+                        entries.add(ModItems.QUARTZ_SWORD);
+                        entries.add(ModItems.QUARTZ_PICKAXE);
+                        entries.add(ModItems.QUARTZ_AXE);
+                        entries.add(ModItems.QUARTZ_SHOVEL);
+                        entries.add(ModItems.QUARTZ_HOE);
+                        entries.add(ModItems.QUARTZ_SABER);
+                        entries.add(ModItems.QUARTZ_DAGGER);
+                        entries.add(ModItems.QUARTZ_BATTLEAXE);
+                        entries.add(ModItems.QUARTZ_HELMET);
+                        entries.add(ModItems.QUARTZ_CHESTPLATE);
+                        entries.add(ModItems.QUARTZ_LEGGINGS);
+                        entries.add(ModItems.QUARTZ_BOOTS);
                     }).build());
 
     public static final ItemGroup ATMC_MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
@@ -137,6 +141,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BUDDING_PURE_AMETHYST);
                         entries.add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
                         entries.add(ModBlocks.END_GLOWSTONE);
+                    }).build());
+
+    public static final ItemGroup BOSS_WEAPONS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(ATMCMod.MOD_ID, "atmc_mod_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CRIMSON_COMMAND_SWORD))
+                    .displayName(Text.translatable("itemgroup.atmcmod.boss_weapons"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.WITHERITE_SWORD);
+                        entries.add(ModItems.JUSTIFIER);
+                        entries.add(ModItems.JUSTIFIER_MAIN);
+                        entries.add(ModItems.MARCEL_MAIN);
+                        entries.add(ModItems.VOIDENING_DEATH_SCYTHE);
+                        entries.add(ModItems.WITHERITE_DOUBLE_SWORD);
+                        entries.add(ModItems.DARK_STEEL_CLAYMORE);
+                        entries.add(ModItems.CRIMSON_COMMAND_SWORD);
                     }).build());
 
     public static void registerItemGroups() {

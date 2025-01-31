@@ -110,6 +110,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.OXIDIZED_COPPER_SABER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.OXIDIZED_COPPER_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.OXIDIZED_COPPER_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.QUARTZ_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.QUARTZ_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.QUARTZ_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.QUARTZ_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.QUARTZ_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.QUARTZ_SABER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.QUARTZ_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.QUARTZ_BATTLEAXE, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_CHESTPLATE));
@@ -135,5 +143,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.OXIDIZED_COPPER_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.OXIDIZED_COPPER_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.OXIDIZED_COPPER_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUARTZ_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUARTZ_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUARTZ_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUARTZ_BOOTS));
     }
 }

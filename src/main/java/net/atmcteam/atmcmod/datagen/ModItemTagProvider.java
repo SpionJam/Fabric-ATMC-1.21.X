@@ -57,35 +57,43 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.OXIDIZED_COPPER_SWORD)
                 .add(ModItems.OXIDIZED_COPPER_SABER)
                 .add(ModItems.OXIDIZED_COPPER_DAGGER)
-                .add(ModItems.OXIDIZED_COPPER_BATTLEAXE);
+                .add(ModItems.OXIDIZED_COPPER_BATTLEAXE)
+                .add(ModItems.QUARTZ_SWORD)
+                .add(ModItems.QUARTZ_SABER)
+                .add(ModItems.QUARTZ_DAGGER)
+                .add(ModItems.QUARTZ_BATTLEAXE);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.AMETHYST_PICKAXE)
                 .add(ModItems.PURE_AMETHYST_PICKAXE)
                 .add(ModItems.EMERALD_PICKAXE)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE)
                 .add(ModItems.COPPER_PICKAXE)
-                .add(ModItems.OXIDIZED_COPPER_PICKAXE);
+                .add(ModItems.OXIDIZED_COPPER_PICKAXE)
+                .add(ModItems.QUARTZ_PICKAXE);
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.AMETHYST_AXE)
                 .add(ModItems.PURE_AMETHYST_AXE)
                 .add(ModItems.EMERALD_AXE)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_AXE)
                 .add(ModItems.COPPER_AXE)
-                .add(ModItems.OXIDIZED_COPPER_AXE);
+                .add(ModItems.OXIDIZED_COPPER_AXE)
+                .add(ModItems.QUARTZ_AXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.AMETHYST_SHOVEL)
                 .add(ModItems.PURE_AMETHYST_SHOVEL)
                 .add(ModItems.EMERALD_SHOVEL)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_SHOVEL)
                 .add(ModItems.COPPER_SHOVEL)
-                .add(ModItems.OXIDIZED_COPPER_SHOVEL);
+                .add(ModItems.OXIDIZED_COPPER_SHOVEL)
+                .add(ModItems.QUARTZ_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.AMETHYST_HOE)
                 .add(ModItems.PURE_AMETHYST_HOE)
                 .add(ModItems.EMERALD_HOE)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_HOE)
                 .add(ModItems.COPPER_HOE)
-                .add(ModItems.OXIDIZED_COPPER_HOE);
+                .add(ModItems.OXIDIZED_COPPER_HOE)
+                .add(ModItems.QUARTZ_HOE);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.AMETHYST_HELMET)
@@ -111,6 +119,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.OXIDIZED_COPPER_HELMET)
                 .add(ModItems.OXIDIZED_COPPER_CHESTPLATE)
                 .add(ModItems.OXIDIZED_COPPER_LEGGINGS)
-                .add(ModItems.OXIDIZED_COPPER_BOOTS);
+                .add(ModItems.OXIDIZED_COPPER_BOOTS)
+                .add(ModItems.QUARTZ_HELMET)
+                .add(ModItems.QUARTZ_CHESTPLATE)
+                .add(ModItems.QUARTZ_LEGGINGS)
+                .add(ModItems.QUARTZ_BOOTS);
     }
 }
