@@ -98,6 +98,22 @@ public class ModItems {
             new SwordItem(ModToolMaterials.PURE_AMETHYST, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PURE_AMETHYST, 8, -3.5F))));
 
+    public static final Item PURE_AMETHYST_HELMET = registerItem("pure_amethyst_helmet",
+            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(16))));
+
+    public static final Item PURE_AMETHYST_CHESTPLATE = registerItem("pure_amethyst_chestplate",
+            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(16))));
+
+    public static final Item PURE_AMETHYST_LEGGINGS = registerItem("pure_amethyst_leggings",
+            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(16))));
+
+    public static final Item PURE_AMETHYST_BOOTS = registerItem("pure_amethyst_boots",
+            new ArmorItem(ModArmorMaterials.PURE_AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(16))));
+
     //Emerald
     public static final Item EMERALD_SWORD = registerItem("emerald_sword",
             new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
@@ -156,6 +172,26 @@ public class ModItems {
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 1, -2.0f))));
 
     public static final Item JUSTIFIER_MAIN = registerItem("justifier_main",
+            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+
+    public static final Item MARCEL_MAIN = registerItem("marcel_main",
+            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+
+    public static final Item VOIDENING_DEATH_SCYTHE = registerItem("voidening_death_scythe",
+            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+
+    public static final Item WITHERITE_DOUBLE_SWORD = registerItem("witherite_double_sword",
+            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+
+    public static final Item DARK_STEEL_CLAYMORE = registerItem("dark_steel_claymore",
+            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+
+    public static final Item CRIMSON_COMMAND_SWORD = registerItem("crimson_command_sword",
             new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
 

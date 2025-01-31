@@ -1,5 +1,13 @@
 {
   "values": [
+    "atmcmod:amethyst_helmet",
+    "atmcmod:amethyst_chestplate",
+    "atmcmod:amethyst_leggings",
+    "atmcmod:amethyst_boots",
+    "atmcmod:pure_amethyst_helmet",
+    "atmcmod:pure_amethyst_chestplate",
+    "atmcmod:pure_amethyst_leggings",
+    "atmcmod:pure_amethyst_boots",
     "atmcmod:emerald_helmet",
     "atmcmod:emerald_chestplate",
     "atmcmod:emerald_leggings",
@@ -7,6 +15,14 @@
     "atmcmod:pure_amethyst_netherite_helmet",
     "atmcmod:pure_amethyst_netherite_chestplate",
     "atmcmod:pure_amethyst_netherite_leggings",
-    "atmcmod:pure_amethyst_netherite_boots"
+    "atmcmod:pure_amethyst_netherite_boots",
+    "atmcmod:copper_helmet",
+    "atmcmod:copper_chestplate",
+    "atmcmod:copper_leggings",
+    "atmcmod:copper_boots",
+    "atmcmod:oxidized_copper_helmet",
+    "atmcmod:oxidized_copper_chestplate",
+    "atmcmod:oxidized_copper_leggings",
+    "atmcmod:oxidized_copper_boots"
   ]
 }

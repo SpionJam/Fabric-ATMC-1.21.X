@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oxidized_copper_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "atmcmod:oxidized_copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "atmcmod:oxidized_copper_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_oxidized_copper_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "atmcmod:oxidized_copper_pickaxe"
+    ]
+  }
+}

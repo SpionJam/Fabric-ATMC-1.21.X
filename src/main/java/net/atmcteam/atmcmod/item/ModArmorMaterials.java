@@ -27,6 +27,16 @@ public class ModArmorMaterials {
             }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(Items.AMETHYST_SHARD),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "amethyst"))), 0,0));
 
+    public static final RegistryEntry<ArmorMaterial> PURE_AMETHYST_ARMOR_MATERIAL = registerArmorMaterial("pure_amethyst",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 3);
+                map.put(ArmorItem.Type.LEGGINGS, 6);
+                map.put(ArmorItem.Type.CHESTPLATE, 8);
+                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.BODY, 12);
+            }), 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.PURE_AMETHYST_GEM),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "pure_amethyst"))), 0,0));
+
     public static final RegistryEntry<ArmorMaterial> EMERALD_ARMOR_MATERIAL = registerArmorMaterial("emerald",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 3);

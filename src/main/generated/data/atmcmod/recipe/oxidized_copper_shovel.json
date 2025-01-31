@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "item": "atmcmod:oxidized_copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " O ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "atmcmod:oxidized_copper_shovel"
+  }
+}

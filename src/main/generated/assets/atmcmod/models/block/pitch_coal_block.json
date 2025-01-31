@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "atmcmod:block/pitch_coal_block"
+  }
+}

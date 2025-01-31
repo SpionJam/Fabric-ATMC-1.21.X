@@ -13,8 +13,13 @@
     "atmcmod:emerald_dagger",
     "atmcmod:emerald_battleaxe",
     "atmcmod:witherite_sword",
-    "atmcmod:yamato",
-    "atmcmod:yamato_main",
+    "atmcmod:justifier",
+    "atmcmod:justifier_main",
+    "atmcmod:marcel_main",
+    "atmcmod:voidening_death_scythe",
+    "atmcmod:witherite_double_sword",
+    "atmcmod:dark_steel_claymore",
+    "atmcmod:crimson_command_sword",
     "atmcmod:pure_amethyst_netherite_sword",
     "atmcmod:pure_amethyst_netherite_saber",
     "atmcmod:pure_amethyst_netherite_dagger",
@@ -27,6 +32,14 @@
     "atmcmod:diamond_battleaxe",
     "atmcmod:netherite_saber",
     "atmcmod:netherite_dagger",
-    "atmcmod:netherite_battleaxe"
+    "atmcmod:netherite_battleaxe",
+    "atmcmod:copper_sword",
+    "atmcmod:copper_saber",
+    "atmcmod:copper_dagger",
+    "atmcmod:oxidized_copper_battleaxe",
+    "atmcmod:oxidized_copper_sword",
+    "atmcmod:oxidized_copper_saber",
+    "atmcmod:oxidized_copper_dagger",
+    "atmcmod:oxidized_copper_battleaxe"
   ]
 }

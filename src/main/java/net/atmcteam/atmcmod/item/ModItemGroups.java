@@ -38,6 +38,10 @@ public class ModItemGroups {
                         entries.add(ModItems.PURE_AMETHYST_SABER);
                         entries.add(ModItems.PURE_AMETHYST_DAGGER);
                         entries.add(ModItems.PURE_AMETHYST_BATTLEAXE);
+                        entries.add(ModItems.PURE_AMETHYST_HELMET);
+                        entries.add(ModItems.PURE_AMETHYST_CHESTPLATE);
+                        entries.add(ModItems.PURE_AMETHYST_LEGGINGS);
+                        entries.add(ModItems.PURE_AMETHYST_BOOTS);
                         entries.add(ModItems.EMERALD_SWORD);
                         entries.add(ModItems.EMERALD_PICKAXE);
                         entries.add(ModItems.EMERALD_AXE);
@@ -53,6 +57,11 @@ public class ModItemGroups {
                         entries.add(ModItems.WITHERITE_SWORD);
                         entries.add(ModItems.JUSTIFIER);
                         entries.add(ModItems.JUSTIFIER_MAIN);
+                        entries.add(ModItems.MARCEL_MAIN);
+                        entries.add(ModItems.VOIDENING_DEATH_SCYTHE);
+                        entries.add(ModItems.WITHERITE_DOUBLE_SWORD);
+                        entries.add(ModItems.DARK_STEEL_CLAYMORE);
+                        entries.add(ModItems.CRIMSON_COMMAND_SWORD);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_SWORD);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE);
                         entries.add(ModItems.PURE_AMETHYST_NETHERITE_AXE);

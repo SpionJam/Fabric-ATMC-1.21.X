@@ -3,6 +3,8 @@
     "atmcmod:amethyst_shovel",
     "atmcmod:pure_amethyst_shovel",
     "atmcmod:emerald_shovel",
-    "atmcmod:pure_amethyst_netherite_shovel"
+    "atmcmod:pure_amethyst_netherite_shovel",
+    "atmcmod:copper_shovel",
+    "atmcmod:oxidized_copper_shovel"
   ]
 }

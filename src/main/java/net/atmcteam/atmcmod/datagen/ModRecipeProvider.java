@@ -2,8 +2,10 @@ package net.atmcteam.atmcmod.datagen;
 
 import net.atmcteam.atmcmod.block.ModBlocks;
 import net.atmcteam.atmcmod.item.ModItems;
+import net.atmcteam.atmcmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
@@ -316,6 +318,53 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("O O")
                 .input('O', ModItems.OXIDIZED_COPPER_INGOT)
                 .criterion(hasItem(ModItems.OXIDIZED_COPPER_INGOT), conditionsFromItem(ModItems.OXIDIZED_COPPER_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModItems.OXIDIZED_COPPER_INGOT, 9)
+                .pattern("O ")
+                .pattern("  ")
+                .input('O', Items.OXIDIZED_COPPER)
+                .criterion(hasItem(ModItems.OXIDIZED_COPPER_INGOT), conditionsFromItem(ModItems.OXIDIZED_COPPER_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.OXIDIZED_COPPER)
+                .pattern("OOO")
+                .pattern("OOO")
+                .pattern("OOO")
+                .input('O', ModItems.OXIDIZED_COPPER_INGOT)
+                .criterion(hasItem(ModItems.OXIDIZED_COPPER_INGOT), conditionsFromItem(ModItems.OXIDIZED_COPPER_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_HELMET)
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("   ")
+                .input('C', Items.CHAIN)
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_CHESTPLATE)
+                .pattern("C C")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', Items.CHAIN)
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_LEGGINGS)
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                .input('C', Items.CHAIN)
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_BOOTS)
+                .pattern("   ")
+                .pattern("C C")
+                .pattern("C C")
+                .input('C', Items.CHAIN)
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
                 .offerTo(recipeExporter);
     }
 

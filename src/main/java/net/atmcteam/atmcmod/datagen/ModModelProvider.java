@@ -57,6 +57,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WITHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.JUSTIFIER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.JUSTIFIER_MAIN, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MARCEL_MAIN, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.VOIDENING_DEATH_SCYTHE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WITHERITE_DOUBLE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DARK_STEEL_CLAYMORE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CRIMSON_COMMAND_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_AXE, Models.HANDHELD);
@@ -110,6 +115,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PURE_AMETHYST_BOOTS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_LEGGINGS));
