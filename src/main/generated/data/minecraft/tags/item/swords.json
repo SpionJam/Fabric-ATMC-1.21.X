@@ -40,6 +40,10 @@
     "atmcmod:oxidized_copper_sword",
     "atmcmod:oxidized_copper_saber",
     "atmcmod:oxidized_copper_dagger",
-    "atmcmod:oxidized_copper_battleaxe"
+    "atmcmod:oxidized_copper_battleaxe",
+    "atmcmod:quartz_sword",
+    "atmcmod:quartz_saber",
+    "atmcmod:quartz_dagger",
+    "atmcmod:quartz_battleaxe"
   ]
 }

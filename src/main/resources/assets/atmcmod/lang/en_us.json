@@ -129,6 +129,7 @@
 
   "itemgroup.atmcmod.atmc_mod_items": "ATMC Mod Items",
   "itemgroup.atmcmod.atmc_mod_blocks": "ATMC Mod Blocks",
+  "itemgroup.atmcmod.amtc_boss_weapons": "ATNC Boss Weapons",
 
   "tooltip.atmcmod.pure_amethyst_apple.tooltip": "Press §eShift§r for more information",
   "tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l1": "Eating this apple grants",

@@ -60,7 +60,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MARCEL_MAIN, Models.HANDHELD);
         itemModelGenerator.register(ModItems.VOIDENING_DEATH_SCYTHE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WITHERITE_DOUBLE_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.DARK_STEEL_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CRIMSON_COMMAND_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE, Models.HANDHELD);

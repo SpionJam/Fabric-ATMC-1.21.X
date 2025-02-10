@@ -23,6 +23,10 @@
     "atmcmod:oxidized_copper_helmet",
     "atmcmod:oxidized_copper_chestplate",
     "atmcmod:oxidized_copper_leggings",
-    "atmcmod:oxidized_copper_boots"
+    "atmcmod:oxidized_copper_boots",
+    "atmcmod:quartz_helmet",
+    "atmcmod:quartz_chestplate",
+    "atmcmod:quartz_leggings",
+    "atmcmod:quartz_boots"
   ]
 }

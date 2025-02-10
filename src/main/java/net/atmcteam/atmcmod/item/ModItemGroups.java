@@ -143,10 +143,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_GLOWSTONE);
                     }).build());
 
-    public static final ItemGroup BOSS_WEAPONS = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(ATMCMod.MOD_ID, "atmc_mod_blocks"),
+    public static final ItemGroup ATMC_BOSS_WEAPONS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(ATMCMod.MOD_ID, "atmc_boss_weapons"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CRIMSON_COMMAND_SWORD))
-                    .displayName(Text.translatable("itemgroup.atmcmod.boss_weapons"))
+                    .displayName(Text.translatable("itemgroup.atmcmod.amtc_boss_weapons"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.WITHERITE_SWORD);
                         entries.add(ModItems.JUSTIFIER);

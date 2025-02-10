@@ -1,7 +1,7 @@
-// 1.21	2025-01-31T10:37:05.2818878	ATMCMod/Tags for minecraft:item
-91731b09bc8437b9cbe200bdd22d77b06f5208bc data\minecraft\tags\item\trimmable_armor.json
-f870de806a333e322ca42e9f3c4d5b281e48045e data\minecraft\tags\item\pickaxes.json
-7031f0ff67e1d635b468e0677c78cbe4299b395a data\minecraft\tags\item\hoes.json
-158fa831d57e4941d399536f36b55fc18d7923ba data\minecraft\tags\item\shovels.json
-5c80697719a0ae1447bacefce9caa2a549310651 data\minecraft\tags\item\axes.json
-2c73131dcff3d44d62cddb592dca672df82a411a data\minecraft\tags\item\swords.json
+// 1.21	2025-02-10T14:34:48.1593332	ATMCMod/Tags for minecraft:item
+de57190874e4841b7137390686253fda82ced0fe data\minecraft\tags\item\trimmable_armor.json
+64b8fe91d2bc1d9bfadca135c87a0cc378fa1366 data\minecraft\tags\item\hoes.json
+29af0e59ff8d98d92bbeacba8dae0f438285e9b8 data\minecraft\tags\item\swords.json
+a043cb267d06631cd5ace614f275c003fc3f2795 data\minecraft\tags\item\shovels.json
+9e97543e3c76eb15b8fb5d1b432a9084f1918702 data\minecraft\tags\item\pickaxes.json
+78b29fe595decf71c7fbcd01b79c064ba3f9d917 data\minecraft\tags\item\axes.json
