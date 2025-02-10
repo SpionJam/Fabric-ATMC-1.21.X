@@ -74,7 +74,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PITCH_COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_CARROT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.IRON_SABER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_BATTLEAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_SABER, Models.HANDHELD);
