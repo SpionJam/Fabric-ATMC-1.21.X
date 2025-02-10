@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " QQ",
+    " SQ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "atmcmod:quartz_axe"
+  }
+}

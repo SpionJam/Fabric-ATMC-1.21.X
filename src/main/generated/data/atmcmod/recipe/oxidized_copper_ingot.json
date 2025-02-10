@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "minecraft:oxidized_copper"
+    }
+  },
+  "pattern": [
+    "O ",
+    "  "
+  ],
+  "result": {
+    "count": 9,
+    "id": "atmcmod:oxidized_copper_ingot"
+  }
+}
