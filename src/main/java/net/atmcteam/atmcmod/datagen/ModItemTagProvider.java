@@ -37,6 +37,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WITHERITE_DOUBLE_SWORD)
                 .add(ModItems.DARK_STEEL_CLAYMORE)
                 .add(ModItems.CRIMSON_COMMAND_SWORD)
+                .add(ModItems.CURSED_SWORD)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_SWORD)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_SABER)
                 .add(ModItems.PURE_AMETHYST_NETHERITE_DAGGER)

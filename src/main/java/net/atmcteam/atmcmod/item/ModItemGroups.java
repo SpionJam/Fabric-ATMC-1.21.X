@@ -156,6 +156,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WITHERITE_DOUBLE_SWORD);
                         entries.add(ModItems.DARK_STEEL_CLAYMORE);
                         entries.add(ModItems.CRIMSON_COMMAND_SWORD);
+                        entries.add(ModItems.CURSED_SWORD);
                     }).build());
 
     public static void registerItemGroups() {

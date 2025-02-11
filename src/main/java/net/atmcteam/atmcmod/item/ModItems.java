@@ -195,6 +195,10 @@ public class ModItems {
             new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
 
+    public static final Item CURSED_SWORD = registerItem("cursed_sword",
+            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+
     //Pure_Amethyst_Netherite
     public static final Item PURE_AMETHYST_NETHERITE_SWORD = registerItem("pure_amethyst_netherite_sword",
             new SwordItem(ModToolMaterials.PURE_AMETHYST_NETHERITE, new Item.Settings()

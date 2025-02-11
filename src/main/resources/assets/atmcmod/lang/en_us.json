@@ -45,6 +45,7 @@
   "item.atmcmod.witherite_double_sword": "Witherite Double Sword",
   "item.atmcmod.dark_steel_claymore": "Dark Steel Claymore",
   "item.atmcmod.crimson_command_sword": "Crimson Command Sword",
+  "item.atmcmod.cursed_sword": "Cursed Sword",
   "item.atmcmod.pure_amethyst_netherite_sword": "Pure Amethyst Netherite Sword",
   "item.atmcmod.pure_amethyst_netherite_pickaxe": "Pure Amethyst Netherite Pickaxe",
   "item.atmcmod.pure_amethyst_netherite_axe": "Pure Amethyst Netherite Axe",
@@ -129,7 +130,7 @@
 
   "itemgroup.atmcmod.atmc_mod_items": "ATMC Mod Items",
   "itemgroup.atmcmod.atmc_mod_blocks": "ATMC Mod Blocks",
-  "itemgroup.atmcmod.amtc_boss_weapons": "ATNC Boss Weapons",
+  "itemgroup.atmcmod.amtc_boss_weapons": "ATMC Boss Weapons",
 
   "tooltip.atmcmod.pure_amethyst_apple.tooltip": "Press §eShift§r for more information",
   "tooltip.atmcmod.pure_amethyst_apple.tooltip.shift_down.l1": "Eating this apple grants",
