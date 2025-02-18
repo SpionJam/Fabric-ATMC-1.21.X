@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "atmcmod:pure_amethyst_carrot"
+    },
+    "title": "The Special kind off \"Carrot\"",
+    "description": "eat an pure amethyst carrot",
+    "background": "minecraft:dirt",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atmcmod:atmcmod_root",
+  "criteria": {
+    "consume_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "atmcmod:pure_amethyst_carrot"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "consume_item"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "minecraft:blocks/carrots"
+    ],
+    "experience": 5
+  }
+}

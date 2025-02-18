@@ -146,5 +146,11 @@
   "tooltip.atmcmod.ocean_essence.tooltip.l1": "§7The essence of the§r §3ocean§r§7.§r",
   "tooltip.atmcmod.ocean_essence.tooltip.l2": "§7A tranquil energy of the seas.§r",
   "tooltip.atmcmod.nether_essence.tooltip.l1": "§7The essence of the§r §4Nether§r§7.",
-  "tooltip.atmcmod.nether_essence.tooltip.l2": "§7Fiery power from the underworld.§r"
+  "tooltip.atmcmod.nether_essence.tooltip.l2": "§7Fiery power from the underworld.§r",
+
+  "advancement.atmcmod.root.title": "Welcome to ATMC Mod!",
+  "advancement.atmcmod.root.desc": "Start your adventure with ATMC Mod.",
+  "advancement.atmcmod.pure_amethyst_carrot.title": "The Special Kind of Carrot",
+  "advancement.atmcmod.pure_amethyst_carrot.desc": "Eat a Pure Amethyst Carrot"
+
 }

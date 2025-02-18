@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "advancement.atmcmod.root.title"
+    },
+    "description": {
+      "translate": "advancement.atmcmod.root.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "game_start": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    ["game_start"]
+  ]
+}

@@ -16,12 +16,19 @@ public class ATMCMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		// Registriere Item-Gruppen
 		ModItemGroups.registerItemGroups();
 
+		// Registriere Items und Blöcke
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		// Generiere Welten
 		ModWorldGeneration.generateModWorldGen();
 
+		// Brennwert von Pitch Coal festlegen
 		FuelRegistry.INSTANCE.add(ModItems.PITCH_COAL, 2400); // ca. 120 Sekunden Brenndauer
+
 	}
+
 }
