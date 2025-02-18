@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
+    //Amethyst
     public static final RegistryEntry<ArmorMaterial> AMETHYST_ARMOR_MATERIAL = registerArmorMaterial("amethyst",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 3);
@@ -27,6 +28,7 @@ public class ModArmorMaterials {
             }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(Items.AMETHYST_SHARD),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "amethyst"))), 0,0));
 
+    //Pure Amethyst
     public static final RegistryEntry<ArmorMaterial> PURE_AMETHYST_ARMOR_MATERIAL = registerArmorMaterial("pure_amethyst",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 3);
@@ -37,6 +39,7 @@ public class ModArmorMaterials {
             }), 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.PURE_AMETHYST_GEM),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "pure_amethyst"))), 0,0));
 
+    //Emerald
     public static final RegistryEntry<ArmorMaterial> EMERALD_ARMOR_MATERIAL = registerArmorMaterial("emerald",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 3);
@@ -47,6 +50,7 @@ public class ModArmorMaterials {
             }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(Items.EMERALD),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "emerald"))), 0,0));
 
+    //Pure Amethyst Netherite
     public static final RegistryEntry<ArmorMaterial> PURE_AMETHYST_NETHERITE_ARMOR_MATERIAL = registerArmorMaterial("pure_amethyst_netherite",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 4);
@@ -57,6 +61,7 @@ public class ModArmorMaterials {
             }), 23, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(ModItems.PURE_AMETHYST_NETHERITE_INGOT),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "pure_amethyst_netherite"))), 3.0F,0.1F));
 
+    //Copper
     public static final RegistryEntry<ArmorMaterial> COPPER_ARMOR_MATERIAL = registerArmorMaterial("copper",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 1);
@@ -67,6 +72,7 @@ public class ModArmorMaterials {
             }), 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(Items.COPPER_INGOT),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "copper"))), 2.0F,0.05F));
 
+    //Oxidized Copper
     public static final RegistryEntry<ArmorMaterial> OXIDIZED_COPPER_ARMOR_MATERIAL = registerArmorMaterial("oxidized_copper",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 1);
@@ -77,6 +83,7 @@ public class ModArmorMaterials {
             }), 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(Items.COPPER_INGOT),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "oxidized_copper"))), 2.0F,0.05F));
 
+    //Quartz
     public static final RegistryEntry<ArmorMaterial> QUARTZ_ARMOR_MATERIAL = registerArmorMaterial("quartz",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 2);

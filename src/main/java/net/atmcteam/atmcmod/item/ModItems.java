@@ -163,6 +163,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
+    //Boss-Weapons
     public static final Item WITHERITE_SWORD = registerItem("witherite_sword",
             new SwordItem(ModToolMaterials.WITHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 3, -2.4f))));
@@ -279,6 +280,7 @@ public class ModItems {
         }
     });
 
+    //Advanced Iron Stuff
     public static final Item IRON_SABER = registerItem("iron_saber",
             new SwordItem(ToolMaterials.IRON, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 2, -2.0f))));
@@ -291,7 +293,7 @@ public class ModItems {
             new SwordItem(ToolMaterials.IRON, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 8, -3.5F))));
 
-
+    //Advanced Diamond Stuff
     public static final Item DIAMOND_SABER = registerItem("diamond_saber",
             new SwordItem(ToolMaterials.DIAMOND, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 2, -2.0f))));
@@ -304,6 +306,7 @@ public class ModItems {
             new SwordItem(ToolMaterials.DIAMOND, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 8, -3.5F))));
 
+    //Advanced Netherite Stuff
     public static final Item NETHERITE_SABER = registerItem("netherite_saber",
             new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 2, -2.0f))));
@@ -316,6 +319,7 @@ public class ModItems {
             new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 8, -3.5F))));
 
+    //Essence
     public static final Item END_ESSENCE = registerItem("end_essence", new Item(new Item.Settings()) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
