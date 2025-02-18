@@ -157,6 +157,7 @@ public class ModItemGroups {
                         entries.add(ModItems.DARK_STEEL_CLAYMORE);
                         entries.add(ModItems.CRIMSON_COMMAND_SWORD);
                         entries.add(ModItems.CURSED_SWORD);
+                        entries.add(ModItems.DARKFORGE_BATTLEHAMMER);
                     }).build());
 
     public static void registerItemGroups() {
