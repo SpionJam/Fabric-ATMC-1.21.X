@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "id": "atmcmod:pure_amethyst_carrot"
+      "id": "atmcmod:pure_amethyst_apple"
     },
-    "title": "The Special kind off \"Carrot\"",
-    "description": "eat an pure amethyst carrot",
+    "title": "What an Curios Apple",
+    "description": "eat an pure amethyst apple",
     "background": "atmcmod:textures/gui/advancements/backgrounds/root.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "atmcmod:pure_amethyst_apple",
+  "parent": "atmcmod:root",
   "criteria": {
     "consume_item": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "atmcmod:pure_amethyst_carrot"
+          "items": "atmcmod:pure_amethyst_apple"
         }
       }
     }

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "atmcmod:amethyst_chestplate"
+    },
+    "title": "Not Quite the Diamonds/ Why is it purple?",
+    "description": "Obtain an full Amethyst Armor",
+    "background": "atmcmod:textures/gui/advancements/backgrounds/root.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atmcmod:quartz_sword",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atmcmod:amethyst_helmet"
+          },
+          {
+            "items": "atmcmod:amethyst_chestplate"
+          },
+          {
+            "items": "atmcmod:amethyst_leggings"
+          },
+          {
+            "items": "atmcmod:amethyst_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

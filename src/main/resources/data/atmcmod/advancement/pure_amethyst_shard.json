@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "atmcmod:pure_amethyst_shard"
+    },
+    "title": "Not a normal Amethyst. Interesting.",
+    "description": "Obtain your first Pure Amethyst",
+    "background": "atmcmod:textures/gui/advancements/backgrounds/root.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atmcmod:root",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atmcmod:pure_amethyst_shard"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

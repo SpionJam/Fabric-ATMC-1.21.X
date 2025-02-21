@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "atmcmod:pure_amethyst_chestplate"
+    },
+    "title": "Better than normal Amethyst, I guess.",
+    "description": "Obtain an full Pure Amethyst Armor",
+    "background": "atmcmod:textures/gui/advancements/backgrounds/root.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atmcmod:pure_amethyst_shard",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atmcmod:pure_amethyst_helmet"
+          },
+          {
+            "items": "atmcmod:pure_amethyst_chestplate"
+          },
+          {
+            "items": "atmcmod:pure_amethyst_leggings"
+          },
+          {
+            "items": "atmcmod:pure_amethyst_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

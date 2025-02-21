@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond"
+      "id": "atmcmod:pure_amethyst_shard"
     },
     "title": {
       "translate": "advancement.atmcmod.root.title"
@@ -9,6 +9,7 @@
     "description": {
       "translate": "advancement.atmcmod.root.desc"
     },
+    "background": "atmcmod:textures/gui/advancements/backgrounds/root.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

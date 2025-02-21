@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "atmcmod:oxidized_copper_sword"
+    },
+    "title": "Wait there is Another Fake Diamond?!",
+    "description": "Obtain Oxidied Copper Tools or Armor",
+    "background": "atmcmod:textures/gui/advancements/backgrounds/root.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atmcmod:copper_armor",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atmcmod:oxidized_copper_sword"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_pickaxe"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_axe"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_shovel"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_hoe"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_dagger"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_battleaxe"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_saber"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_helmet"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_chestplate"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_leggings"
+          },
+          {
+            "items": "atmcmod:oxidized_copper_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

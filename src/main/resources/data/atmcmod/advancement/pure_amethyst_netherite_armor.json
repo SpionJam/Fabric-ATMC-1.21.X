@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "atmcmod:pure_amethyst_netherite_chestplate"
+    },
+    "title": "This seems Overpowered",
+    "description": "Obtain an full Pure Amethyst Netherite Armor",
+    "background": "atmcmod:textures/gui/advancements/backgrounds/root.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atmcmod:pure_amethyst_netherite_ingot",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atmcmod:pure_amethyst_netherite_helmet"
+          },
+          {
+            "items": "atmcmod:pure_amethyst_netherite_chestplate"
+          },
+          {
+            "items": "atmcmod:pure_amethyst_netherite_leggings"
+          },
+          {
+            "items": "atmcmod:pure_amethyst_netherite_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}
