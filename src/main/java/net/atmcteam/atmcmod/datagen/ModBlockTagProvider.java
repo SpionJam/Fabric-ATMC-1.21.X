@@ -22,6 +22,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PITCH_COAL_ORE)
                 .add(ModBlocks.PITCH_COAL_BLOCK)
                 .add(ModBlocks.PURE_AMETHYST_BLOCK)
+                .add(ModBlocks.PURE_AMETHYST_NETHERITE_BLOCK)
                 .add(ModBlocks.BUDDING_PURE_AMETHYST)
                 .add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
 

@@ -4,9 +4,9 @@
       "id": "atmcmod:pure_amethyst_netherite_chestplate"
     },
     "title": "This seems Overpowered",
-    "description": "Obtain an full Pure Amethyst Netherite Armor",
+    "description": "Obtain a full Pure Amethyst Netherite Armor",
     "background": "atmcmod:textures/gui/advancements/backgrounds/root.png",
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

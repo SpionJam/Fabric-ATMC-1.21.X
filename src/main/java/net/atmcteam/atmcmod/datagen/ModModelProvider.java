@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PITCH_COAL_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PITCH_COAL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURE_AMETHYST_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURE_AMETHYST_NETHERITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BUDDING_PURE_AMETHYST);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_GLOWSTONE);
@@ -57,9 +58,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WITHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.JUSTIFIER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MARCEL_MAIN, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.VOIDENING_DEATH_SCYTHE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WITHERITE_DOUBLE_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.CRIMSON_COMMAND_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PURE_AMETHYST_NETHERITE_AXE, Models.HANDHELD);

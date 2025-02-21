@@ -180,7 +180,7 @@ public class ModItems {
             new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
 
-    public static final Item VOIDENING_DEATH_SCYTHE = registerItem("voidening_death_scythe",
+    public static final Item DEATHS_DARKEST_SCYTHE = registerItem("deaths_darkest_scythe",
             new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
 

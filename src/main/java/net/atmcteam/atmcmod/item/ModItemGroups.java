@@ -138,6 +138,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PITCH_COAL_ORE);
                         entries.add(ModBlocks.PITCH_COAL_BLOCK);
                         entries.add(ModBlocks.PURE_AMETHYST_BLOCK);
+                        entries.add(ModBlocks.PURE_AMETHYST_NETHERITE_BLOCK);
                         entries.add(ModBlocks.BUDDING_PURE_AMETHYST);
                         entries.add(ModBlocks.SMOOTH_PURE_AMETHYST_BLOCK);
                         entries.add(ModBlocks.END_GLOWSTONE);
@@ -152,7 +153,7 @@ public class ModItemGroups {
                         entries.add(ModItems.JUSTIFIER);
                         entries.add(ModItems.JUSTIFIER_MAIN);
                         entries.add(ModItems.MARCEL_MAIN);
-                        entries.add(ModItems.VOIDENING_DEATH_SCYTHE);
+                        entries.add(ModItems.DEATHS_DARKEST_SCYTHE);
                         entries.add(ModItems.WITHERITE_DOUBLE_SWORD);
                         entries.add(ModItems.DARK_STEEL_CLAYMORE);
                         entries.add(ModItems.CRIMSON_COMMAND_SWORD);

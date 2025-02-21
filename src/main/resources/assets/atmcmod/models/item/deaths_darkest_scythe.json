@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "atmcmod:item/voidening_death_scythe",
-		"particle": "atmcmod:item/voidening_death_scythe"
+		"0": "atmcmod:item/deaths_darkest_scythe",
+		"particle": "atmcmod:item/deaths_darkest_scythe"
 	},
 	"elements": [
 		{

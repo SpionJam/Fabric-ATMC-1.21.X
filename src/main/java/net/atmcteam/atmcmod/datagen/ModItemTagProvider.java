@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -33,7 +32,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.JUSTIFIER)
                 .add(ModItems.JUSTIFIER_MAIN)
                 .add(ModItems.MARCEL_MAIN)
-                .add(ModItems.VOIDENING_DEATH_SCYTHE)
+                .add(ModItems.DEATHS_DARKEST_SCYTHE)
                 .add(ModItems.WITHERITE_DOUBLE_SWORD)
                 .add(ModItems.DARK_STEEL_CLAYMORE)
                 .add(ModItems.CRIMSON_COMMAND_SWORD)
