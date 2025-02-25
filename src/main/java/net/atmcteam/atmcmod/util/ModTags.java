@@ -19,6 +19,16 @@ public class ModTags {
         public static final TagKey<Block> INCORRECT_FOR_WITHERITE_TOOL = createTag("incorrect_for_witherite_tool");
         public static final TagKey<Block> NEEDS_JUSTIFIER_TOOL = createTag("needs_justifier_tool");
         public static final TagKey<Block> INCORRECT_FOR_JUSTIFIER_TOOL = createTag("incorrect_for_justifier_tool");
+        public static final TagKey<Block> NEEDS_DARKFORGE_TOOL = createTag("needs_darkforge_tool");
+        public static final TagKey<Block> INCORRECT_FOR_DARKFORGE_TOOL = createTag("incorrect_for_darkforge_tool");
+        public static final TagKey<Block> NEEDS_DEATH_TOOL = createTag("needs_death_tool");
+        public static final TagKey<Block> INCORRECT_FOR_DEATH_TOOL = createTag("incorrect_for_death_tool");
+        public static final TagKey<Block> NEEDS_DARKSTEEL_TOOL = createTag("needs_darksteel_tool");
+        public static final TagKey<Block> INCORRECT_FOR_DARKSTEEL_TOOL = createTag("incorrect_for_darksteel_tool");
+        public static final TagKey<Block> NEEDS_CRIMSON_TOOL = createTag("needs_crimson_tool");
+        public static final TagKey<Block> INCORRECT_FOR_CRIMSON_TOOL = createTag("incorrect_for_crimson_tool");
+        public static final TagKey<Block> NEEDS_CURSED_TOOL = createTag("needs_cursed_tool");
+        public static final TagKey<Block> INCORRECT_FOR_CURSED_TOOL = createTag("incorrect_for_cursed_tool");
         public static final TagKey<Block> NEEDS_PURE_AMETHYST_NETHERITE_TOOL = createTag("needs_pure_amethyst_netherite_tool");
         public static final TagKey<Block> INCORRECT_FOR_PURE_AMETHYST_NETHERITE_TOOL = createTag("incorrect_for_pure_amethyst_netherite_tool");
         public static final TagKey<Block> NEEDS_COPPER_TOOL = createTag("needs_copper_tool");

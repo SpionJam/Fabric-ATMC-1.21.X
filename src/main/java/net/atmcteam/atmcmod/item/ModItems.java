@@ -166,43 +166,43 @@ public class ModItems {
     //Boss-Weapons
     public static final Item WITHERITE_SWORD = registerItem("witherite_sword",
             new SwordItem(ModToolMaterials.WITHERITE, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 3, -2.4f))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WITHERITE, -1, -2.4f))));
 
     public static final Item JUSTIFIER = registerItem("justifier",
             new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 1, -2.0f))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 0, -2.5f))));
 
     public static final Item JUSTIFIER_MAIN = registerItem("justifier_main",
             new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, -1, -1.5f))));
 
     public static final Item MARCEL_MAIN = registerItem("marcel_main",
             new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
 
     public static final Item DEATHS_DARKEST_SCYTHE = registerItem("deaths_darkest_scythe",
-            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+            new SwordItem(ModToolMaterials.DEATH, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DEATH, -1, -3.5f))));
 
     public static final Item WITHERITE_DOUBLE_SWORD = registerItem("witherite_double_sword",
-            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+            new SwordItem(ModToolMaterials.WITHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WITHERITE, -1, -1.6f))));
 
     public static final Item DARK_STEEL_CLAYMORE = registerItem("dark_steel_claymore",
-            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+            new SwordItem(ModToolMaterials.DARKSTEEL, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DARKSTEEL, -1, -3.6f))));
 
     public static final Item CRIMSON_COMMAND_SWORD = registerItem("crimson_command_sword",
-            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+            new SwordItem(ModToolMaterials.CRIMSON, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.CRIMSON, -1, -2.4f))));
 
     public static final Item CURSED_SWORD = registerItem("cursed_sword",
-            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+            new SwordItem(ModToolMaterials.CURSED, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.CURSED, -1, -2.4f))));
 
     public static final Item DARKFORGE_BATTLEHAMMER = registerItem("darkforge_battlehammer",
-            new SwordItem(ModToolMaterials.JUSTIFIER, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.JUSTIFIER, 4, -2.0f))));
+            new SwordItem(ModToolMaterials.DARKFORGE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DARKFORGE, -1, -3.5f))));
 
     //Pure_Amethyst_Netherite
     public static final Item PURE_AMETHYST_NETHERITE_SWORD = registerItem("pure_amethyst_netherite_sword",
