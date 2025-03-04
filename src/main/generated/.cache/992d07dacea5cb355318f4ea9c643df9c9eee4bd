@@ -1,4 +1,4 @@
-// 1.21	2025-02-21T10:27:30.9680168	ATMCMod/Recipes
+// 1.21	2025-02-28T08:24:07.8380543	ATMCMod/Recipes
 36ea6acc5ad1a3bad8cac8d6810ea158ffb0e1ee data\atmcmod\recipe\oxidized_copper_dagger.json
 b22c991bd09da50b145353636c76984ad9ded3c0 data\atmcmod\advancement\recipes\combat\copper_chestplate.json
 eb0f86201c9ff336717d2fcfa959b244c6748353 data\atmcmod\advancement\recipes\combat\oxidized_copper_saber.json
@@ -18,8 +18,8 @@ e3ccff0d0591b469030331a731f3406e26dd291d data\atmcmod\advancement\recipes\combat
 4c61b429d2c1f10dd9257b9c47981db420e63b78 data\atmcmod\advancement\recipes\combat\quartz_chestplate.json
 1d554cf99b916fc52b1c4769db93e02d694a43b6 data\atmcmod\recipe\oxidized_copper_boots.json
 bd61e8e1da41c3dda7d688e2a9289464e4d4f06c data\atmcmod\advancement\recipes\decorations\end_glowstone.json
-7e74601f775b0da804dce782c164306d558911ea data\atmcmod\recipe\amethyst_sword.json
 1a8ae7b8679c4c562654ec0420d5cfd63bb13be1 data\atmcmod\advancement\recipes\tools\oxidized_copper_shovel.json
+7e74601f775b0da804dce782c164306d558911ea data\atmcmod\recipe\amethyst_sword.json
 86a30a13cd938df51fa03816b5406cc61bc5a2cc data\atmcmod\recipe\quartz_shovel.json
 15edd6794a34c0c6074baed4f0df69c49c2ea7a5 data\atmcmod\advancement\recipes\combat\oxidized_copper_leggings.json
 bad334a155aa37b67692577bef51a72068119da5 data\atmcmod\advancement\recipes\combat\chainmail_boots.json
@@ -78,8 +78,8 @@ b848c76ce462141c5a46a9b975469fb591dc3413 data\atmcmod\recipe\copper_leggings.jso
 152fa94756592b1baccc83846653082d48e3066b data\atmcmod\advancement\recipes\combat\quartz_saber.json
 61c1bb825eb32302c48d3efa4bc1ecc9bab367da data\atmcmod\advancement\recipes\combat\quartz_dagger.json
 760a3ae12fce3512982c5414ddbdc6b28371a663 data\atmcmod\advancement\recipes\combat\chainmail_leggings.json
-a8dc5075c0ba98a88f7df89c0313ac305a3c8820 data\atmcmod\recipe\amethyst_axe.json
 b637e1a3784eab7fb1867886835af41475cd9298 data\atmcmod\recipe\amethyst_helmet.json
+a8dc5075c0ba98a88f7df89c0313ac305a3c8820 data\atmcmod\recipe\amethyst_axe.json
 9274c0082f1927bb3b0435e0812c69b18d3839af data\atmcmod\recipe\oxidized_copper_sword.json
 081bf8252d78c4e7a3d745a1f270242efa9c9a1f data\atmcmod\recipe\amethyst_pickaxe.json
 780b9008cdbeb1f1b0b5ad52a841716a5e89f017 data\atmcmod\recipe\oxidized_copper.json
@@ -94,8 +94,8 @@ b637e1a3784eab7fb1867886835af41475cd9298 data\atmcmod\recipe\amethyst_helmet.jso
 ac1814f93b7eecdf44fc4a56b39cd7dfde634732 data\atmcmod\recipe\chainmail_boots.json
 8f4b18adf656d939952dd858cee12736f3458c68 data\atmcmod\advancement\recipes\combat\chainmail_helmet.json
 ac4b155605dbf31ad2de610431f959ef5dce6e6b data\atmcmod\advancement\recipes\combat\amethyst_leggings.json
-7eb12949b65c681dfe366101443254491d68e654 data\atmcmod\advancement\recipes\tools\oxidized_copper_hoe.json
 2118aca54a212a82e6ead3898ac92d78fa95143b data\atmcmod\advancement\recipes\tools\oxidized_copper_axe.json
+7eb12949b65c681dfe366101443254491d68e654 data\atmcmod\advancement\recipes\tools\oxidized_copper_hoe.json
 9c78d0474195d0a445b2fd87c0ddda5588ac261e data\atmcmod\advancement\recipes\tools\copper_pickaxe.json
 6f4a28adc70f460370df143235af99851bb561ec data\atmcmod\recipe\amethyst_leggings.json
 8834d3071144f22051cd572423eea6885eb92869 data\atmcmod\advancement\recipes\combat\amethyst_chestplate.json

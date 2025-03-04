@@ -88,6 +88,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.OCEAN_ESSENCE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.NETHER_ESSENCE, Models.GENERATED);
         itemModelGenerator.register(ModItems.NETHER_ESSENCE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ULTIMATIVE_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ULTIMATIVE_ESSENCE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.END_GLOWSTONE_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);
@@ -143,5 +145,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUARTZ_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUARTZ_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUARTZ_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.END_ESSENCE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.END_ESSENCE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.END_ESSENCE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.END_ESSENCE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.FOREST_ESSENCE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.FOREST_ESSENCE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.FOREST_ESSENCE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.FOREST_ESSENCE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OCEAN_ESSENCE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OCEAN_ESSENCE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OCEAN_ESSENCE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OCEAN_ESSENCE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_ESSENCE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_ESSENCE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_ESSENCE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_ESSENCE_BOOTS));
     }
 }

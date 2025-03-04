@@ -331,6 +331,22 @@ public class ModItems {
 
     public static final Item END_ESSENCE_INGOT = registerItem("end_essence_ingot", new Item(new Item.Settings()));
 
+    public static final Item END_ESSENCE_HELMET = registerItem("end_essence_helmet",
+            new ArmorItem(ModArmorMaterials.END_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item END_ESSENCE_CHESTPLATE = registerItem("end_essence_chestplate",
+            new ArmorItem(ModArmorMaterials.END_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item END_ESSENCE_LEGGINGS = registerItem("end_essence_leggings",
+            new ArmorItem(ModArmorMaterials.END_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item END_ESSENCE_BOOTS = registerItem("end_essence_boots",
+            new ArmorItem(ModArmorMaterials.END_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
     public static final Item FOREST_ESSENCE = registerItem("forest_essence", new Item(new Item.Settings()) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -341,6 +357,22 @@ public class ModItems {
     });
 
     public static final Item FOREST_ESSENCE_INGOT = registerItem("forest_essence_ingot", new Item(new Item.Settings()));
+
+    public static final Item FOREST_ESSENCE_HELMET = registerItem("forest_essence_helmet",
+            new ArmorItem(ModArmorMaterials.FOREST_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item FOREST_ESSENCE_CHESTPLATE = registerItem("forest_essence_chestplate",
+            new ArmorItem(ModArmorMaterials.FOREST_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item FOREST_ESSENCE_LEGGINGS = registerItem("forest_essence_leggings",
+            new ArmorItem(ModArmorMaterials.FOREST_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item FOREST_ESSENCE_BOOTS = registerItem("forest_essence_boots",
+            new ArmorItem(ModArmorMaterials.FOREST_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
     public static final Item OCEAN_ESSENCE = registerItem("ocean_essence", new Item(new Item.Settings()) {
         @Override
@@ -353,6 +385,22 @@ public class ModItems {
 
     public static final Item OCEAN_ESSENCE_INGOT = registerItem("ocean_essence_ingot", new Item(new Item.Settings()));
 
+    public static final Item OCEAN_ESSENCE_HELMET = registerItem("ocean_essence_helmet",
+            new ArmorItem(ModArmorMaterials.OCEAN_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item OCEAN_ESSENCE_CHESTPLATE = registerItem("ocean_essence_chestplate",
+            new ArmorItem(ModArmorMaterials.OCEAN_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item OCEAN_ESSENCE_LEGGINGS = registerItem("ocean_essence_leggings",
+            new ArmorItem(ModArmorMaterials.OCEAN_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item OCEAN_ESSENCE_BOOTS = registerItem("ocean_essence_boots",
+            new ArmorItem(ModArmorMaterials.OCEAN_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
     public static final Item NETHER_ESSENCE = registerItem("nether_essence", new Item(new Item.Settings()) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -363,6 +411,33 @@ public class ModItems {
     });
 
     public static final Item NETHER_ESSENCE_INGOT = registerItem("nether_essence_ingot", new Item(new Item.Settings()));
+
+    public static final Item NETHER_ESSENCE_HELMET = registerItem("nether_essence_helmet",
+            new ArmorItem(ModArmorMaterials.NETHER_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item NETHER_ESSENCE_CHESTPLATE = registerItem("nether_essence_chestplate",
+            new ArmorItem(ModArmorMaterials.NETHER_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item NETHER_ESSENCE_LEGGINGS = registerItem("nether_essence_leggings",
+            new ArmorItem(ModArmorMaterials.NETHER_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item NETHER_ESSENCE_BOOTS = registerItem("nether_essence_boots",
+            new ArmorItem(ModArmorMaterials.NETHER_ESSENCE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item ULTIMATIVE_ESSENCE = registerItem("ultimative_essence", new Item(new Item.Settings()) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            super.appendTooltip(stack, context, tooltip, type);
+            tooltip.add(Text.translatable("tooltip.atmcmod.ultimative_essence.tooltip.l1"));
+            tooltip.add(Text.translatable("tooltip.atmcmod.ultimative_essence.tooltip.l2"));
+        }
+    });
+
+    public static final Item ULTIMATIVE_ESSENCE_INGOT = registerItem("ultimative_essence_ingot", new Item(new Item.Settings()));
 
     public static final Item END_GLOWSTONE_DUST = registerItem("end_glowstone_dust", new Item(new Item.Settings()));
 

@@ -94,6 +94,46 @@ public class ModArmorMaterials {
             }), 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(Items.QUARTZ),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "quartz"))), 0,0));
 
+    public static final RegistryEntry<ArmorMaterial> END_ESSENCE_ARMOR_MATERIAL = registerArmorMaterial("end_essence",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 3);
+                map.put(ArmorItem.Type.LEGGINGS, 6);
+                map.put(ArmorItem.Type.CHESTPLATE, 8);
+                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.BODY, 11);
+            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.END_ESSENCE_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "end_essence"))), 0,0));
+
+    public static final RegistryEntry<ArmorMaterial> FOREST_ESSENCE_ARMOR_MATERIAL = registerArmorMaterial("forest_essence",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 3);
+                map.put(ArmorItem.Type.LEGGINGS, 6);
+                map.put(ArmorItem.Type.CHESTPLATE, 8);
+                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.BODY, 11);
+            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.FOREST_ESSENCE_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "forest_essence"))), 0,0));
+
+    public static final RegistryEntry<ArmorMaterial> OCEAN_ESSENCE_ARMOR_MATERIAL = registerArmorMaterial("ocean_essence",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 3);
+                map.put(ArmorItem.Type.LEGGINGS, 6);
+                map.put(ArmorItem.Type.CHESTPLATE, 8);
+                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.BODY, 11);
+            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.OCEAN_ESSENCE_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "ocean_essence"))), 0,0));
+
+    public static final RegistryEntry<ArmorMaterial> NETHER_ESSENCE_ARMOR_MATERIAL = registerArmorMaterial("nether_essence",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 3);
+                map.put(ArmorItem.Type.LEGGINGS, 6);
+                map.put(ArmorItem.Type.CHESTPLATE, 8);
+                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.BODY, 11);
+            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.NETHER_ESSENCE_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ATMCMod.MOD_ID, "nether_essence"))), 0,0));
+
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(ATMCMod.MOD_ID, name), material.get());
     }
