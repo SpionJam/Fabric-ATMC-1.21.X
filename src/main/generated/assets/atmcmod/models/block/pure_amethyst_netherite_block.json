@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "atmcmod:block/pure_amethyst_netherite_block"
+  }
+}
