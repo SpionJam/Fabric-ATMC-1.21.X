@@ -1,4 +1,4 @@
-// 1.21	2025-02-28T08:24:07.8138006	ATMCMod/Tags for minecraft:block
+// 1.21	2025-03-07T10:10:36.9987272	ATMCMod/Tags for minecraft:block
 0c1cff615c33f236d9f9c59f01857990ddb6b110 data\minecraft\tags\block\mineable\pickaxe.json
 493d0bb19cef72447dccad55e3ed4af066b049d6 data\minecraft\tags\block\needs_diamond_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\atmcmod\tags\block\needs_pure_amethyst_tool.json

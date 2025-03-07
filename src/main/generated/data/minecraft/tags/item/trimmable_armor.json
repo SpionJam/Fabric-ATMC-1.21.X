@@ -27,6 +27,22 @@
     "atmcmod:quartz_helmet",
     "atmcmod:quartz_chestplate",
     "atmcmod:quartz_leggings",
-    "atmcmod:quartz_boots"
+    "atmcmod:quartz_boots",
+    "atmcmod:end_essence_helmet",
+    "atmcmod:end_essence_chestplate",
+    "atmcmod:end_essence_leggings",
+    "atmcmod:end_essence_boots",
+    "atmcmod:forest_essence_helmet",
+    "atmcmod:forest_essence_chestplate",
+    "atmcmod:forest_essence_leggings",
+    "atmcmod:forest_essence_boots",
+    "atmcmod:ocean_essence_helmet",
+    "atmcmod:ocean_essence_chestplate",
+    "atmcmod:ocean_essence_leggings",
+    "atmcmod:ocean_essence_boots",
+    "atmcmod:nether_essence_helmet",
+    "atmcmod:nether_essence_chestplate",
+    "atmcmod:nether_essence_leggings",
+    "atmcmod:nether_essence_boots"
   ]
 }

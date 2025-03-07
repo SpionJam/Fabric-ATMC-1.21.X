@@ -124,6 +124,22 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.QUARTZ_HELMET)
                 .add(ModItems.QUARTZ_CHESTPLATE)
                 .add(ModItems.QUARTZ_LEGGINGS)
-                .add(ModItems.QUARTZ_BOOTS);
+                .add(ModItems.QUARTZ_BOOTS)
+                .add(ModItems.END_ESSENCE_HELMET)
+                .add(ModItems.END_ESSENCE_CHESTPLATE)
+                .add(ModItems.END_ESSENCE_LEGGINGS)
+                .add(ModItems.END_ESSENCE_BOOTS)
+                .add(ModItems.FOREST_ESSENCE_HELMET)
+                .add(ModItems.FOREST_ESSENCE_CHESTPLATE)
+                .add(ModItems.FOREST_ESSENCE_LEGGINGS)
+                .add(ModItems.FOREST_ESSENCE_BOOTS)
+                .add(ModItems.OCEAN_ESSENCE_HELMET)
+                .add(ModItems.OCEAN_ESSENCE_CHESTPLATE)
+                .add(ModItems.OCEAN_ESSENCE_LEGGINGS)
+                .add(ModItems.OCEAN_ESSENCE_BOOTS)
+                .add(ModItems.NETHER_ESSENCE_HELMET)
+                .add(ModItems.NETHER_ESSENCE_CHESTPLATE)
+                .add(ModItems.NETHER_ESSENCE_LEGGINGS)
+                .add(ModItems.NETHER_ESSENCE_BOOTS);
     }
 }
