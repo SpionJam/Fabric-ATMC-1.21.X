@@ -22,11 +22,11 @@ Die Mod sollte unter anderem folgende Inhalte hinzufügen:
 
 ## Verwendete Technologien:
 
-Programmiersprachen: Java, JSON
-Minecraft Modding API: Fabric
-Build-System: Gradle
-Entwicklungsumgebung: IntelliJ IDEA
-Versionskontrolle: Git
-Bildbearbeitung: Paint.NET
-Modellierung: Blockbench
-Unterstützende Tools & Ressourcen: Verschiedene Webseiten zur einfacheren Erstellung von Rezepten und weiteren Mod-Inhalten
+- **Programmiersprachen:** Java, JSON
+- **Minecraft Modding API:** Fabric
+- **Build-System:** Gradle
+- **Entwicklungsumgebung:** IntelliJ IDEA
+- **Versionskontrolle:** Git
+- **Bildbearbeitung:** Paint.NET
+- **Modellierung:** Blockbench
+- **Unterstützende Tools & Ressourcen:** Verschiedene Webseiten zur einfacheren Erstellung von Rezepten und weiteren Mod-Inhalten
