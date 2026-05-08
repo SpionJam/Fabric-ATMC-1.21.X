@@ -30,3 +30,8 @@ Die Mod sollte unter anderem folgende Inhalte hinzufügen:
 - **Bildbearbeitung:** Paint.NET
 - **Modellierung:** Blockbench
 - **Unterstützende Tools & Ressourcen:** Verschiedene Webseiten zur einfacheren Erstellung von Rezepten und weiteren Mod-Inhalten
+
+## Lizenz
+
+Dises Projekt steht unter der MIT License.
+Siehe [LICENSE](./LICENSE) für weitere Informationen.
