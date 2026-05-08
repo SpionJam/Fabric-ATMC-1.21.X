@@ -33,5 +33,5 @@ Die Mod sollte unter anderem folgende Inhalte hinzufügen:
 
 ## Lizenz
 
-Dises Projekt steht unter der MIT License.
+Dieses Projekt steht unter der MIT License.
 Siehe [LICENSE](./LICENSE) für weitere Informationen.
